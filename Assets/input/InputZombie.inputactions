@@ -1,5 +1,5 @@
 {
-    "name": "InputPlayer (1)",
+    "name": "InputZombie",
     "maps": [
         {
             "name": "Player",
@@ -54,6 +54,15 @@
                     "name": "Left",
                     "type": "Value",
                     "id": "ccffd997-c9c3-4c97-9803-4ddaef606a2c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Attack",
+                    "type": "Value",
+                    "id": "1d5ae10b-55d0-4970-ac7f-178559c3966c",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -300,6 +309,17 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a2d8ac57-3ce7-400d-82e6-937d7cffc378",
+                    "path": "<Keyboard>/u",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

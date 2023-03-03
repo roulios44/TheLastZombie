@@ -16,8 +16,8 @@ public class zombie : MonoBehaviour
     Vector2 movement;
     private float posX;
     private float posY;
+    private float lastDir;
     public Animator animator;
-    private float LastDir;
     void Start()
     {
         mass = body.mass;
@@ -32,10 +32,11 @@ public class zombie : MonoBehaviour
         if (goUp) movement.y = 1;
         else if (goDown) movement.y = -1;
         else movement.y = 0;
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.sqrMagnitude);
-        animator.SetFloat("LastDir", LastDir);
+
+        animator.SetFloat("Horizontal",movement.x);
+        animator.SetFloat("Vertical",movement.y);
+        animator.SetFloat("Speed",movement.sqrMagnitude);
+        animator.SetFloat("LastDir",lastDir);
 
     }
 
@@ -43,44 +44,46 @@ public class zombie : MonoBehaviour
     {
         body.MovePosition(body.position + movement * speed * Time.fixedDeltaTime);
     }
-
-    void OnRight(InputValue val)
-    {
-        if (val.Get<float>() == 0) goRight = false;
-        else
-        {
+    void OnRight(InputValue val){
+        if(val.Get<float>() == 0)goRight = false;
+        else {
             goRight = true;
-            LastDir = 4;
+            lastDir = 4;
         }
     }
-
-    void OnLeft(InputValue val)
-    {
-        if (val.Get<float>() == 0) goLeft = false;
-        else
-        {
+    
+    void OnLeft(InputValue val){
+        if(val.Get<float>() == 0)goLeft = false;
+        else {
             goLeft = true;
-            LastDir = 3;
-        };
-    }
-
-    void OnUp(InputValue val)
-    {
-        if (val.Get<float>() == 0) goUp = false;
-        else
-        {
-            goUp = true;
-            LastDir = 2;
+            lastDir = 3;
         }
     }
-
-    void OnDown(InputValue val)
-    {
-        if (val.Get<float>() == 0) goDown = false;
-        else
-        {
+    
+    void OnUp(InputValue val){
+        if(val.Get<float>() == 0)goUp = false;
+        else {
+            goUp = true;
+            lastDir = 2;
+        }
+    }
+    
+    void OnDown(InputValue val){
+        if(val.Get<float>() == 0)goDown = false;
+        else {
             goDown = true;
-            LastDir = 1;
-        };
+            lastDir = 1;
+        }
+    }
+    void OnAttack(){
+        animator.SetTrigger("Attack");
+        StopMoving();
+    }
+
+    void StopMoving(){
+        goDown = false;
+        goLeft = false;
+        goRight = false;
+        goUp = false;
     }
 }
