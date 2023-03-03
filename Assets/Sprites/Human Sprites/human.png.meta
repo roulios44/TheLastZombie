@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 46ea3caf560cb354a917865e5e6b7628
+guid: bdca5ca7bb2c0473e9b015c353c052db
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,1466 +101,1475 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: speel_up_1
+      name: human_0
       rect:
         serializedVersion: 2
-        x: 17
+        x: 0
         y: 1280
-        width: 30
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0542a109dbee2484fb08a32173d9b68a
-      internalID: -827614647
+      spriteID: 934f36f9f7bab4c10b40ee681ca36227
+      internalID: 914092987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_up_2
+      name: human_1
       rect:
         serializedVersion: 2
-        x: 81
+        x: 64
         y: 1280
-        width: 30
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f17ca67a2acf3364d928cb52321c03ab
-      internalID: -572854461
+      spriteID: 3fbb3bf77be6f42518584868f513b753
+      internalID: -650448078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_up_3
+      name: human_2
       rect:
         serializedVersion: 2
-        x: 145
+        x: 128
         y: 1280
-        width: 30
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb0bc9c685c314743ab5ca3f2e8b41bd
-      internalID: -505415847
+      spriteID: e6c0812810cff42a4b7d62c709d44bc6
+      internalID: -1818507261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_up_4
+      name: human_3
       rect:
         serializedVersion: 2
-        x: 206
-        y: 1282
-        width: 36
-        height: 49
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1fc342ac40951b944ae614030ddc951c
-      internalID: 1243722013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: speel_up_5
-      rect:
-        serializedVersion: 2
-        x: 263
+        x: 192
         y: 1280
-        width: 50
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a40de78ff85e51b4b88d7b12f472cfb8
-      internalID: 173729589
+      spriteID: da16d459858414226b9a7094fe9cc706
+      internalID: -1999447168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_up_6
+      name: human_4
       rect:
         serializedVersion: 2
-        x: 328
+        x: 256
         y: 1280
-        width: 48
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98b27c21f8ec83d48b9175ffa2f1230b
-      internalID: 126558120
+      spriteID: eea0468ae230345cc9f16dd4bc4d0563
+      internalID: -1421706561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_up_7
+      name: human_5
       rect:
         serializedVersion: 2
-        x: 398
+        x: 320
         y: 1280
-        width: 36
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b29fb8bce074b784fb199f0b57429f28
-      internalID: 1340909471
+      spriteID: f76d109f914e54ef892e7c30f1ba87ff
+      internalID: 643277869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_left_1
+      name: human_6
       rect:
         serializedVersion: 2
-        x: 17
+        x: 384
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93c85a37fdd3499bb465ba4150262a5
+      internalID: -1393006266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1cc1cdad218445783ea291ea995128
+      internalID: 1674584459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_8
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 1216
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69017000c5a583945a648dfbb303be87
-      internalID: -2130176824
+      spriteID: 6d0318d17e6614b2f88720bc9fcaa745
+      internalID: 676369179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_left_2
+      name: human_9
       rect:
         serializedVersion: 2
-        x: 83
+        x: 64
         y: 1216
-        width: 26
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ac659007c33321408355414bfe010df
-      internalID: -725039743
+      spriteID: d18a12575104e418d8223c37cd3773d3
+      internalID: 1609954785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_left_3
+      name: human_10
       rect:
         serializedVersion: 2
-        x: 147
+        x: 128
         y: 1216
-        width: 26
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d21d5c8ee306ec4f868f20848b8ea8f
-      internalID: 465807612
+      spriteID: bddddfe783d1e46848e75a291e44becc
+      internalID: 1074378002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_left_4
+      name: human_11
       rect:
         serializedVersion: 2
-        x: 211
+        x: 192
         y: 1216
-        width: 27
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b19fe7e766ccf14fb57cbaad8b98d35
-      internalID: 145289727
+      spriteID: c586417aeebe347a0acd3ad7e0e16473
+      internalID: -2116234052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_left_5
+      name: human_12
       rect:
         serializedVersion: 2
-        x: 272
+        x: 256
         y: 1216
-        width: 35
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec7bd4b81e32e9c4fabbe55e24f5f0ad
-      internalID: -1022255114
+      spriteID: fda07b2df460b4e79939830f642c7a42
+      internalID: -45361097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_left_6
+      name: human_13
       rect:
         serializedVersion: 2
-        x: 335
+        x: 320
         y: 1216
-        width: 36
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c352370e69a6764ba045f418c871e48
-      internalID: 1732813585
+      spriteID: a733976d07c4f4d558ffd92a889e8967
+      internalID: -1429950629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_left_7
+      name: human_14
       rect:
         serializedVersion: 2
-        x: 403
+        x: 384
         y: 1216
-        width: 29
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f8dee04fc41e8e498c42d7a898070b4
-      internalID: -1694590468
+      spriteID: 0d9f7cc59e5154ced83a7fca04904b87
+      internalID: -1493031608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_down_1
+      name: human_15
       rect:
         serializedVersion: 2
-        x: 15
+        x: 0
         y: 1152
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbba62b0498f3564bb5ccad6a931c581
-      internalID: -1414295334
+      spriteID: a879722c3f1e44fd1bd95a34c7d9875c
+      internalID: -897701920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_down_2
+      name: human_16
       rect:
         serializedVersion: 2
-        x: 81
+        x: 64
         y: 1152
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e0ed98b4c81ec447bbea28312a10e17
-      internalID: 991945358
+      spriteID: 515925312f9c24b3cb156359a6ef4a78
+      internalID: -487602923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_down_3
+      name: human_17
       rect:
         serializedVersion: 2
-        x: 145
+        x: 128
         y: 1152
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b72f2b92228daee439a596bf81182478
-      internalID: -813076742
+      spriteID: c05715437efaa4d07a74fd069b968143
+      internalID: 1911838593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_down_4
+      name: human_18
       rect:
         serializedVersion: 2
-        x: 206
+        x: 192
         y: 1152
-        width: 36
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a9fa37c547589045af61c6f88c4ae47
-      internalID: 649239892
+      spriteID: bc0cfdf2e853640bdaf5c3a335925d7a
+      internalID: -1720302157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_down_5
+      name: human_19
       rect:
         serializedVersion: 2
-        x: 263
+        x: 256
         y: 1152
-        width: 50
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c46c3405aec341047968488e59949834
-      internalID: -1055164928
+      spriteID: a554f0eb676c54c6d92426a92d296a2a
+      internalID: -1660557273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_down_6
+      name: human_20
       rect:
         serializedVersion: 2
-        x: 328
+        x: 320
         y: 1152
-        width: 48
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbb020b9a0b74cb4ba66bca88b2f1560
-      internalID: 117728281
+      spriteID: 864462fc58b8e42f4a7ae3b8cead0929
+      internalID: 873779589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_down_7
+      name: human_21
       rect:
         serializedVersion: 2
-        x: 399
+        x: 384
         y: 1152
-        width: 34
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92a126ac13d20d8459c752b74232115b
-      internalID: 266111593
+      spriteID: a5c7b0e1ac7b04d639e65721aad1e047
+      internalID: -1411536955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_right_1
+      name: human_22
       rect:
         serializedVersion: 2
-        x: 17
+        x: 0
         y: 1088
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de30bdb2cab8c3140b14a762cf013d9f
-      internalID: -955839519
+      spriteID: f60ac9fbd301c4f06b21d29679d3de4a
+      internalID: -831336473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_right_2
+      name: human_23
       rect:
         serializedVersion: 2
-        x: 83
+        x: 64
         y: 1088
-        width: 26
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f9c61b134b402143946fdd7363920bd
-      internalID: 2119522785
+      spriteID: 989d4d4796cc346e9a8c3c74cd3bdac5
+      internalID: 2061772381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_right_3
+      name: human_24
       rect:
         serializedVersion: 2
-        x: 147
-        y: 1086
-        width: 26
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d2a4469f7c678f4e9915ed7e1916752
-      internalID: -1131809421
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: speel_right_4
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 1090
-        width: 27
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b3eb9cad14cfae4f960383cef1284cc
-      internalID: -982589876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: speel_right_5
-      rect:
-        serializedVersion: 2
-        x: 269
+        x: 128
         y: 1088
-        width: 35
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b48d69ae50e8b5b4099e8a5627c9092c
-      internalID: -197338024
+      spriteID: d3b9755cf5b9949d280f12b0ab965b65
+      internalID: 1613406118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_right_6
+      name: human_25
       rect:
         serializedVersion: 2
-        x: 333
+        x: 192
         y: 1088
-        width: 36
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37acf95a15a001f45ab565c58a179156
-      internalID: 2131157447
+      spriteID: 8d6d2a5051ed04d3c91524bebf9cc411
+      internalID: -1454890646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_right_7
+      name: human_26
       rect:
         serializedVersion: 2
-        x: 400
+        x: 256
         y: 1088
-        width: 29
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aae5d56c10423e443baf072d98be615a
-      internalID: -1909126803
+      spriteID: bb5e5009ab5464b7faf65cf1de48222b
+      internalID: -787929541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_28
+      name: human_27
       rect:
         serializedVersion: 2
-        x: 17
+        x: 320
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0811a80408664c2db947bc69f3e5460
+      internalID: -1124303629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a079346fd966b40769f6af8239025722
+      internalID: -224573998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_29
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 1024
-        width: 30
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77e9ab74f7d721746b2ae3229b972618
-      internalID: 1628263699
+      spriteID: fef373fc23bd649eebb83a1890f0deb2
+      internalID: 450366862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_29
+      name: human_30
       rect:
         serializedVersion: 2
-        x: 82
+        x: 64
         y: 1024
-        width: 29
-        height: 48
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3843612810c5e0140b4a4f8fc80d48b5
-      internalID: 1201689162
+      spriteID: 7d45e978b19c04bc9b04baff403b8be0
+      internalID: 555032049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_30
+      name: human_31
       rect:
         serializedVersion: 2
-        x: 146
+        x: 128
         y: 1024
-        width: 28
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cace25aa59206fe40b8775efd72590b9
-      internalID: 981342748
+      spriteID: 05e7e352c95494929a7da265aac6ae90
+      internalID: 823186203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_31
+      name: human_32
       rect:
         serializedVersion: 2
-        x: 211
+        x: 192
         y: 1024
-        width: 27
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5597e043f651ad14bb1973dccbb9f622
-      internalID: 1522014533
+      spriteID: 15ead6e81b2854ec4be945949bf7ff34
+      internalID: -1384039855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_32
+      name: human_33
       rect:
         serializedVersion: 2
-        x: 275
+        x: 256
         y: 1024
-        width: 27
-        height: 48
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d92464ae41b1544bb787afaec6d9fad
-      internalID: 574142763
+      spriteID: 69c8ca075b2ba4c98b312bc121aab2d7
+      internalID: 425963705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_33
+      name: human_34
       rect:
         serializedVersion: 2
-        x: 339
+        x: 320
         y: 1024
-        width: 27
-        height: 48
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b47117fbfa4062546b5e08caf4cce0c9
-      internalID: 694669969
+      spriteID: 430163c4447a84198b4ce62149b8ff13
+      internalID: -448883860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_34
+      name: human_35
       rect:
         serializedVersion: 2
-        x: 403
+        x: 384
         y: 1024
-        width: 27
-        height: 48
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be5a6609e0ab0a744a77d51008448344
-      internalID: 458772789
+      spriteID: eb88f3f8daeb94f309657c5ade2f8c61
+      internalID: -1206971522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_35
+      name: human_36
       rect:
         serializedVersion: 2
-        x: 467
+        x: 448
         y: 1024
-        width: 27
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa46ce07c21a8674d989c346c933ccb6
-      internalID: 1536808115
+      spriteID: 7552ead8041d04cb19dae9827c0f69d5
+      internalID: 1129085025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_36
+      name: human_37
       rect:
         serializedVersion: 2
-        x: 19
+        x: 0
         y: 960
-        width: 26
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 436f117e91959224c906d7c9ea0116e5
-      internalID: 1260334831
+      spriteID: 63d107194ceca40d192a71f268c8f7f6
+      internalID: 2039046465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_37
+      name: human_38
       rect:
         serializedVersion: 2
-        x: 83
+        x: 64
         y: 960
-        width: 27
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20295b5e3835f6c40a9bbdafa362ac2e
-      internalID: -1823661285
+      spriteID: 13e1448cdd58c49c88caf04921f76516
+      internalID: -1523729382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_38
+      name: human_39
       rect:
         serializedVersion: 2
-        x: 147
+        x: 128
         y: 960
-        width: 28
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a38bbccf3748a2245b21ff3b8db1f428
-      internalID: -783313024
+      spriteID: acdcc948e694d406aae5eee0d439a20a
+      internalID: 95511251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_39
+      name: human_40
       rect:
         serializedVersion: 2
-        x: 211
+        x: 192
         y: 960
-        width: 28
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8a4e55d3c95d2c4c95967671b83f309
-      internalID: -363873295
+      spriteID: 200e700c358f547108e4b6d201368952
+      internalID: 497712545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_40
+      name: human_41
       rect:
         serializedVersion: 2
-        x: 271
+        x: 256
         y: 960
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5e9795716621c2429e0a727738e6e89
-      internalID: -770067697
+      spriteID: 0deb9b828583449b09071553acbddd2f
+      internalID: -883916654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_41
+      name: human_42
       rect:
         serializedVersion: 2
-        x: 332
+        x: 320
         y: 960
-        width: 33
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aef61861c4ce98a42a53687f0967dbde
-      internalID: -415350668
+      spriteID: 75ce4c3e8bb154941b8a0fc29585bdc1
+      internalID: 1455049239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_42
+      name: human_43
       rect:
         serializedVersion: 2
-        x: 399
+        x: 384
         y: 960
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b107b644eca18a24ab2d772fd4306c25
-      internalID: 765795958
+      spriteID: 9fb8f7cc53b9c429ba1733af89c6c100
+      internalID: -245645017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_43
+      name: human_44
       rect:
         serializedVersion: 2
-        x: 467
+        x: 448
         y: 960
-        width: 28
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78ad9e3d4cfaceb4095912c3fad18f01
-      internalID: -721812984
+      spriteID: 19a23abe5223e4bb899d734451629e44
+      internalID: -1305103595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_44
+      name: human_45
       rect:
         serializedVersion: 2
-        x: 17
+        x: 0
         y: 896
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf928f9b177e4cb428d1f96dcb1e073b
-      internalID: -386855453
+      spriteID: aeda85748c2274670b95c846fd67c328
+      internalID: 1854245813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_45
+      name: human_46
       rect:
         serializedVersion: 2
-        x: 81
+        x: 64
         y: 896
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ba2f68104ba57b47b59bf2d3664ce3d
-      internalID: -1788605788
+      spriteID: 7f957e6ee211b4a8fb0dbcf749461e91
+      internalID: -1913762094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_46
+      name: human_47
       rect:
         serializedVersion: 2
-        x: 147
+        x: 128
         y: 896
-        width: 26
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6e096a97b3264c4e9fc05e88c2a8cc4
-      internalID: -1930378145
+      spriteID: e0ac9ae19415b43aa85ec247ffcd1729
+      internalID: 1776833242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_47
+      name: human_48
       rect:
         serializedVersion: 2
-        x: 210
-        y: 897
-        width: 27
-        height: 49
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c03b81f0612712499273cce6ad013e5
-      internalID: -1290218173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zombieSpriteSheet_48
-      rect:
-        serializedVersion: 2
-        x: 275
-        y: 897
-        width: 26
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 738d13d6c60c40344b494588f59c66b8
-      internalID: 1256765276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zombieSpriteSheet_49
-      rect:
-        serializedVersion: 2
-        x: 340
+        x: 192
         y: 896
-        width: 26
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e01638644668ff479a2192004228076
-      internalID: 1240555994
+      spriteID: fc46679d88255440896f132935602295
+      internalID: 1663996408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_50
+      name: human_49
       rect:
         serializedVersion: 2
-        x: 403
-        y: 897
-        width: 26
-        height: 48
+        x: 256
+        y: 896
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd4c4ca8ce2cccd41bddeaca0042ac51
-      internalID: 1429277722
+      spriteID: 782c4d1fff256412fbecea242267d9d8
+      internalID: -481459379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_51
+      name: human_50
       rect:
         serializedVersion: 2
-        x: 466
-        y: 897
-        width: 27
-        height: 49
+        x: 320
+        y: 896
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e20bb6ef22106b46a6bc62268f18a1d
-      internalID: -600543219
+      spriteID: e1334959ba62a4424a166bc31568eead
+      internalID: 196768856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_52
+      name: human_51
       rect:
         serializedVersion: 2
-        x: 19
+        x: 384
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8920843af482e47b0850d94476746132
+      internalID: 1362233320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_52
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43983db1d73494789ae1af3536352f6d
+      internalID: -554756257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_53
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 832
-        width: 26
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1bff45b4afbb214585c309d736c7892
-      internalID: 376080004
+      spriteID: 355c42400a75c449fafd65d75fe9c537
+      internalID: 1219646145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_53
+      name: human_54
       rect:
         serializedVersion: 2
-        x: 82
+        x: 64
         y: 832
-        width: 27
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82991acdd4097f14eaad9d1d23e70002
-      internalID: 483039569
+      spriteID: 9ab360020beb54e7891a65640c9f8654
+      internalID: 587691877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_54
+      name: human_55
       rect:
         serializedVersion: 2
-        x: 145
+        x: 128
         y: 832
-        width: 28
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 675cdc3aa8fcf22439b88c8ce8844612
-      internalID: 131543045
+      spriteID: 84cca0cfe62074576b0ed92fb86b645d
+      internalID: 1586181075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_55
+      name: human_56
       rect:
         serializedVersion: 2
-        x: 209
+        x: 192
         y: 832
-        width: 28
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7b2da198a6d8f940bc1e58777b02b1e
-      internalID: 954756318
+      spriteID: 58883fae17e8b4b7f94d74398fd32806
+      internalID: -56111781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_56
+      name: human_57
       rect:
         serializedVersion: 2
-        x: 275
+        x: 256
         y: 832
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd10c9bd6478364499b3107ca811ed79
-      internalID: 2068286182
+      spriteID: 2b9db9bd329bc4e3b9c493b70e51e35b
+      internalID: 518396246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_57
+      name: human_58
       rect:
         serializedVersion: 2
-        x: 339
+        x: 320
         y: 832
-        width: 33
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8c7c524e2be5194a8c591f46322b0c5
-      internalID: 1266202513
+      spriteID: 0b9dd23e2479a4d448c2bfc0441fad34
+      internalID: 377227122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_58
+      name: human_59
       rect:
         serializedVersion: 2
-        x: 403
+        x: 384
         y: 832
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7da8659cc4dfa648ad879cd75af4d0d
-      internalID: 1219064415
+      spriteID: 726843459ab784b43873a25fec31913d
+      internalID: -1800412325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_59
+      name: human_60
       rect:
         serializedVersion: 2
-        x: 465
+        x: 448
         y: 832
-        width: 28
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cae71de23e6b66418714618dcf6cc80
-      internalID: 486049380
+      spriteID: d94bf2ba0fc6a4992ab449dcc365b85d
+      internalID: 995300183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_up_1
+      name: walk_back_1
       rect:
         serializedVersion: 2
-        x: 17
+        x: 0
         y: 768
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99ab46f7853d9634f9c4cc118b39d36f
-      internalID: -721010282
+      spriteID: 5bc8b2412c98a4a51b48f5ddb1d0afe8
+      internalID: -1236735307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_up_2
+      name: walk_back_2
       rect:
         serializedVersion: 2
-        x: 81
+        x: 64
         y: 768
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a57279abaa7dcdf40aa56eb4a8d364a9
-      internalID: 1244689042
+      spriteID: 5985593dcdbdc4afbbe6da19096f0e87
+      internalID: 1067836602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_up_3
+      name: walk_back_3
       rect:
         serializedVersion: 2
-        x: 145
+        x: 128
         y: 768
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ecc51c7a4fc0194891de8b01e680a36
-      internalID: 1533012586
+      spriteID: 89c4685d43fa34bac9e25f5714b7b65d
+      internalID: 1047229121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_up_4
+      name: walk_back_4
       rect:
         serializedVersion: 2
-        x: 209
+        x: 191
         y: 768
-        width: 30
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c53dafcf754ce444a64335b720c2aba
-      internalID: 725944484
+      spriteID: 45deb8ee1ee1d479b8bf6aa6a93f7318
+      internalID: -1820827400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_up_5
+      name: walk_back_5
       rect:
         serializedVersion: 2
-        x: 273
+        x: 256
         y: 768
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6a7bd7c45acc774db025897c078c02c
-      internalID: -708006211
+      spriteID: 86085799f49b044d2996c9e3ceffded6
+      internalID: 2054250457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_up_6
+      name: walk_back_6
       rect:
         serializedVersion: 2
-        x: 337
+        x: 320
         y: 768
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f15777c2dea5434389279b9d09c4cbc
-      internalID: -530319938
+      spriteID: f2f0fb96d022747c1bc6a399fe129711
+      internalID: 127190292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_up_7
+      name: walk_back_7
       rect:
         serializedVersion: 2
-        x: 401
-        y: 768
-        width: 30
-        height: 50
+        x: 383
+        y: 769
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2d965dd7b630294c8edf0afff30b134
-      internalID: 779378520
+      spriteID: d2e80d1441dc9447bbb0395870129a9c
+      internalID: -1959741667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_up_8
+      name: walk_back_8
       rect:
         serializedVersion: 2
-        x: 465
+        x: 448
         y: 768
-        width: 30
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 280faba9c2cd00f438b69f8ca7e78d71
-      internalID: -441545885
+      spriteID: 686dcf9108b4a4a648df4e038e468326
+      internalID: 343616290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_up_9
+      name: walk_back_9
       rect:
         serializedVersion: 2
-        x: 529
+        x: 512
         y: 768
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9be9d7c419a091e4d8f118eab8377898
-      internalID: 1150989150
+      spriteID: 662a1facd000240ca9e215a05e9a0c88
+      internalID: 802291548
       vertices: []
       indices: 
       edges: []
@@ -1569,19 +1578,19 @@ TextureImporter:
       name: walk_left_1
       rect:
         serializedVersion: 2
-        x: 19
+        x: 0
         y: 704
-        width: 26
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29c8df0be0d5727428be94cb03990b4d
-      internalID: -1597979474
+      spriteID: 6eb09db7562ad4f49aa471c836e66630
+      internalID: 1963718989
       vertices: []
       indices: 
       edges: []
@@ -1590,19 +1599,19 @@ TextureImporter:
       name: walk_left_2
       rect:
         serializedVersion: 2
-        x: 82
+        x: 64
         y: 704
-        width: 28
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 163a069e0f63975429d81391d33c3c1f
-      internalID: -1564521390
+      spriteID: a828bc5a0b5454ec49935b345af7e43f
+      internalID: 894254755
       vertices: []
       indices: 
       edges: []
@@ -1611,19 +1620,19 @@ TextureImporter:
       name: walk_left_3
       rect:
         serializedVersion: 2
-        x: 146
+        x: 128
         y: 704
-        width: 28
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11d27870bd8b29e41a2d533379d89182
-      internalID: 1544435124
+      spriteID: 0f6bc29443ea54d27999801d862daa6e
+      internalID: -355681873
       vertices: []
       indices: 
       edges: []
@@ -1632,19 +1641,19 @@ TextureImporter:
       name: walk_left_4
       rect:
         serializedVersion: 2
-        x: 211
+        x: 192
         y: 704
-        width: 27
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34c5b721b87c99840a224c9edaff83b9
-      internalID: -1021676159
+      spriteID: b62320ad4629545e3adc2584635cec7d
+      internalID: -1641801718
       vertices: []
       indices: 
       edges: []
@@ -1653,19 +1662,19 @@ TextureImporter:
       name: walk_left_5
       rect:
         serializedVersion: 2
-        x: 275
-        y: 705
-        width: 27
-        height: 50
+        x: 256
+        y: 704
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75c5881c43ed15a478961003345979f2
-      internalID: 1251875591
+      spriteID: fda8b5165f3ac4fe09895786b4c9ceb8
+      internalID: 1747065133
       vertices: []
       indices: 
       edges: []
@@ -1674,19 +1683,19 @@ TextureImporter:
       name: walk_left_6
       rect:
         serializedVersion: 2
-        x: 338
+        x: 320
         y: 704
-        width: 29
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfc611011c793a14d97675bc04c57c4e
-      internalID: 792538468
+      spriteID: 46f70fc1d5ddb49858e047b28fc3af37
+      internalID: -1744256504
       vertices: []
       indices: 
       edges: []
@@ -1695,19 +1704,19 @@ TextureImporter:
       name: walk_left_7
       rect:
         serializedVersion: 2
-        x: 402
+        x: 384
         y: 704
-        width: 27
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94e320873f1903d4c978ae7bc7d2695c
-      internalID: 812522774
+      spriteID: df9bb45e5bdcb479096dd76c83bf5499
+      internalID: 557333828
       vertices: []
       indices: 
       edges: []
@@ -1716,19 +1725,19 @@ TextureImporter:
       name: walk_left_8
       rect:
         serializedVersion: 2
-        x: 466
+        x: 448
         y: 704
-        width: 26
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 552a036993533104e913d7aaf8aff483
-      internalID: -1158737455
+      spriteID: a7a4ca051a4a548d5b5d4e16712a6641
+      internalID: -1663569075
       vertices: []
       indices: 
       edges: []
@@ -1737,208 +1746,208 @@ TextureImporter:
       name: walk_left_9
       rect:
         serializedVersion: 2
-        x: 531
+        x: 512
         y: 704
-        width: 26
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96eafcd9fe959a94f8522f8799bd43ca
-      internalID: 1670796096
+      spriteID: cee06ffd7fcf34741b62ad92092bc6f4
+      internalID: -1025789386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_down_1
+      name: walk_front_1
       rect:
         serializedVersion: 2
-        x: 17
+        x: 0
         y: 640
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62a317f313c5e954597b6c7168518555
-      internalID: -898038008
+      spriteID: 7c38f6937f5484541a1ec2dda6a50d24
+      internalID: -1638143789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_down_2
+      name: human_80
       rect:
         serializedVersion: 2
-        x: 81
+        x: 64
         y: 640
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdd3e9dea89bbfd4781444d1374747e1
-      internalID: -1603865111
+      spriteID: 5a56f0cfcd1854c18a5d4e0de4f6c40b
+      internalID: -1953595725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_down_3
+      name: walk_front_3
       rect:
         serializedVersion: 2
-        x: 145
+        x: 128
         y: 640
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dfe5365d9ca4884a98ad0a28f932ceb
-      internalID: 1416671009
+      spriteID: a88e5f3dc100045619eb173513b2ce08
+      internalID: 1716063898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_down_4
+      name: walk_front_4
       rect:
         serializedVersion: 2
-        x: 209
+        x: 191
         y: 640
-        width: 30
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21849acb2f2a4bd4cab02b03922d0c7e
-      internalID: -1982662483
+      spriteID: ec522c3c427cb4e05b940b80f6f260c5
+      internalID: 765223676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_down_5
+      name: walk_front_5
       rect:
         serializedVersion: 2
-        x: 273
+        x: 256
         y: 640
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9d6bda64933c0c4b92a0ee8f8de6738
-      internalID: 1790486322
+      spriteID: 9159edf4beb144f38b81566c62d534e7
+      internalID: 1132367152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_down_6
+      name: walk_front_6
       rect:
         serializedVersion: 2
-        x: 337
+        x: 320
         y: 640
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86b7f68ae6a8bb44db1311fa4ff91e5b
-      internalID: -1353525693
+      spriteID: 2773985bfb28a407ca349d2008eaf02c
+      internalID: 390509881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_down_7
+      name: walk_front_7
       rect:
         serializedVersion: 2
-        x: 401
+        x: 384
         y: 640
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c65eeef996c8cdd45a8f77d9d326b525
-      internalID: -1038373223
+      spriteID: 8f965511b76ee4e3ea0eb84e39c1fcaa
+      internalID: 1466281350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_down_8
+      name: walk_front_8
       rect:
         serializedVersion: 2
-        x: 465
+        x: 448
         y: 640
-        width: 30
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf78660196fed764ea5a507d4f7bfaaf
-      internalID: 1932839620
+      spriteID: e224a2d0f45864c5e832043f50848a0a
+      internalID: -2039369398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_down_9
+      name: walk_front_9
       rect:
         serializedVersion: 2
-        x: 529
+        x: 512
         y: 640
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6440add73a65fae42877fe5e59ba1ac8
-      internalID: -1347210278
+      spriteID: 73a1ddf52be3b41c8899c33c1a628355
+      internalID: 1467413736
       vertices: []
       indices: 
       edges: []
@@ -1947,19 +1956,19 @@ TextureImporter:
       name: walk_right_1
       rect:
         serializedVersion: 2
-        x: 18
+        x: 0
         y: 576
-        width: 26
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f237d746f1eea174c963ca90e8f2734c
-      internalID: 1000227486
+      spriteID: 12f59fa2aabff4b8c92f3aa376514a61
+      internalID: 901495292
       vertices: []
       indices: 
       edges: []
@@ -1968,19 +1977,19 @@ TextureImporter:
       name: walk_right_2
       rect:
         serializedVersion: 2
-        x: 82
-        y: 576
-        width: 28
-        height: 49
+        x: 64
+        y: 577
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2ebcc437aa678642b7ea8c64ef70395
-      internalID: 2052481270
+      spriteID: 8851c828971704b5db3a386fe2ec9bee
+      internalID: -2078758962
       vertices: []
       indices: 
       edges: []
@@ -1989,19 +1998,19 @@ TextureImporter:
       name: walk_right_3
       rect:
         serializedVersion: 2
-        x: 146
+        x: 128
         y: 576
-        width: 28
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1069f8cdcf3ed844e9bf3f9ff2f2a04c
-      internalID: 2083771368
+      spriteID: 10855ebb3c1324c60a5ad1c18611d708
+      internalID: -740960458
       vertices: []
       indices: 
       edges: []
@@ -2010,19 +2019,19 @@ TextureImporter:
       name: walk_right_4
       rect:
         serializedVersion: 2
-        x: 210
+        x: 192
         y: 576
-        width: 27
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 249586c284a31d046a2884adc050d114
-      internalID: -1161076016
+      spriteID: 19db2e3a00f6e48669abe15831f5d81e
+      internalID: 708600304
       vertices: []
       indices: 
       edges: []
@@ -2031,19 +2040,19 @@ TextureImporter:
       name: walk_right_5
       rect:
         serializedVersion: 2
-        x: 274
+        x: 256
         y: 576
-        width: 27
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52866ffff2217cf4abe1fa7c428638c5
-      internalID: 1636162296
+      spriteID: 1a680d3f464ff41fe931bfcc816cda3d
+      internalID: -921322057
       vertices: []
       indices: 
       edges: []
@@ -2052,19 +2061,19 @@ TextureImporter:
       name: walk_right_6
       rect:
         serializedVersion: 2
-        x: 336
+        x: 320
         y: 576
-        width: 29
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7f0c00c7a1c47e4ba8e1d33c6d7411b
-      internalID: 117010843
+      spriteID: 852de3c0d2bd3412eb24d0290ef6583c
+      internalID: 976818627
       vertices: []
       indices: 
       edges: []
@@ -2073,19 +2082,19 @@ TextureImporter:
       name: walk_right_7
       rect:
         serializedVersion: 2
-        x: 402
+        x: 384
         y: 576
-        width: 27
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb0e1613f14f4364abe7fa2ede2a82ac
-      internalID: -673016898
+      spriteID: 8f914c2776cdd4e1bacc0344680c95cb
+      internalID: 1014135422
       vertices: []
       indices: 
       edges: []
@@ -2094,19 +2103,19 @@ TextureImporter:
       name: walk_right_8
       rect:
         serializedVersion: 2
-        x: 467
+        x: 448
         y: 576
-        width: 26
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc68b87bed74b0645a7ae38b46c5fca9
-      internalID: 465982322
+      spriteID: e852b5cee2444496faabfd44d9ff6ab9
+      internalID: -1069849162
       vertices: []
       indices: 
       edges: []
@@ -2115,1762 +2124,1741 @@ TextureImporter:
       name: walk_right_9
       rect:
         serializedVersion: 2
-        x: 531
+        x: 511
         y: 576
-        width: 26
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0b32c3ae1af1924895744837e0e4beb
-      internalID: -1990184189
+      spriteID: f6c992ca6a4214c68add9782680cb065
+      internalID: 1730806995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_96
+      name: punch_back_1
       rect:
         serializedVersion: 2
-        x: 17
+        x: 0
         y: 512
-        width: 30
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 431a7580e46f8b7408612e1b128a9722
-      internalID: -1474227493
+      spriteID: bd68ab04ce4584c32b980d41ce0e8125
+      internalID: -1249712691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_97
+      name: punch_back_2
       rect:
         serializedVersion: 2
-        x: 81
+        x: 64
         y: 512
-        width: 30
-        height: 48
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2227da8d22aca44bb21a0aa0d2f4d60
-      internalID: 1735286525
+      spriteID: c7fd6c6834e5b4122a2f148653f18733
+      internalID: 2081733080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_98
+      name: punch_back_3
       rect:
         serializedVersion: 2
-        x: 143
+        x: 128
         y: 512
-        width: 30
-        height: 48
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de157b53998ad164b953bb472e6eeed4
-      internalID: -1269129299
+      spriteID: a109be572b465403cb015330fba42926
+      internalID: -1986622829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_99
+      name: punch_back_4
       rect:
         serializedVersion: 2
-        x: 209
+        x: 192
         y: 512
-        width: 30
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53d8b2762f1f13443a3a3d11985e92b1
-      internalID: 859063165
+      spriteID: 333b25b9db1ad480781372d19d7e8918
+      internalID: 976967608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_100
+      name: punch_back_5
       rect:
         serializedVersion: 2
-        x: 273
+        x: 256
         y: 512
-        width: 37
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cbb78bf9fbe86d4aa0d8d5956171493
-      internalID: 1342910681
+      spriteID: f10fd3c2ceef84419a7e46b3e42ecbef
+      internalID: -770461092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_101
+      name: punch_back_6
       rect:
         serializedVersion: 2
-        x: 336
+        x: 320
         y: 512
-        width: 41
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97ea14c10d7d78340a55f679ac00c811
-      internalID: 1554866903
+      spriteID: 9cdd689b0c1c740f2a76c805092d8c8f
+      internalID: -1069200729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_102
+      name: punch_left_1
       rect:
         serializedVersion: 2
-        x: 20
+        x: 0
         y: 448
-        width: 24
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc762726c531ca343b27c61f4f3eacc7
-      internalID: -466015084
+      spriteID: 06d673fd353924255a9b88c92c784a54
+      internalID: -1602645944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_103
+      name: punch_left_2
       rect:
         serializedVersion: 2
-        x: 80
+        x: 64
         y: 448
-        width: 26
-        height: 48
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46535303290f9a641a6ae2dd1ed6c893
-      internalID: -1076631358
+      spriteID: 7d83dd2741acb46869024b05163bb4c1
+      internalID: 379585728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_104
+      name: punch_left_3
       rect:
         serializedVersion: 2
-        x: 144
+        x: 128
         y: 448
-        width: 28
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5e82bc53e3346045b62a066bed71b09
-      internalID: 1746418223
+      spriteID: c48735b3e089b45a78f503984cd0f88a
+      internalID: -376129779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_105
+      name: punch_left_4
       rect:
         serializedVersion: 2
-        x: 203
+        x: 192
         y: 448
-        width: 34
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af10267013f53894ba5156939dba5f32
-      internalID: -1347136571
+      spriteID: 74b4141b3fac447da8967f61d6180e80
+      internalID: -1233566665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_106
+      name: punch_left_5
       rect:
         serializedVersion: 2
-        x: 264
+        x: 256
         y: 448
-        width: 36
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0153b1e29421b86409b04f9db6fc8526
-      internalID: -1708594630
+      spriteID: 9e96412da9a51422987206cd0f1a68c7
+      internalID: 1762132466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_107
+      name: punch_left_6
       rect:
         serializedVersion: 2
-        x: 331
+        x: 320
         y: 448
-        width: 33
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f6cc20ad449af344b829952282ee80f
-      internalID: 103570501
+      spriteID: 3cd2f23e3e9e0431b8355358d3bea44a
+      internalID: 716440974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_108
+      name: punch_front_1
       rect:
         serializedVersion: 2
-        x: 17
+        x: 0
         y: 384
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27a964fa82e5f764da5a5eb743b4b6e2
-      internalID: 1110473567
+      spriteID: b71d40ae003804b2b8d5960cab0c2a70
+      internalID: -850151710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_109
+      name: punch_front_2
       rect:
         serializedVersion: 2
-        x: 81
+        x: 64
         y: 384
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d796476df5f985640a6363022ef0f867
-      internalID: -1855063180
+      spriteID: 8dda3a0a7548b45e4a14751bbc4b351b
+      internalID: -1448051888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_110
+      name: punch_front_3
       rect:
         serializedVersion: 2
-        x: 143
+        x: 128
         y: 384
-        width: 30
-        height: 48
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67c1deb3569ec344f87325d739fd7ee3
-      internalID: -542509821
+      spriteID: 6851dbf7fc6254da08cfb2f051ff1fa1
+      internalID: 1130861628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_111
+      name: punch_front_4
       rect:
         serializedVersion: 2
-        x: 209
+        x: 192
         y: 384
-        width: 30
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 750ad83942709c241bd600e994472a5d
-      internalID: 914640707
+      spriteID: 2cb4728d80d8143b19361c18cf9c89e8
+      internalID: 1936896643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_112
+      name: punch_front_5
       rect:
         serializedVersion: 2
-        x: 273
+        x: 256
         y: 384
-        width: 38
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6550f3f06a957954ab64118bfcc0e71f
-      internalID: -941061771
+      spriteID: 9cfe6480598da4738b36ab4787bb817e
+      internalID: 505321024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_113
+      name: punch_front_6
       rect:
         serializedVersion: 2
-        x: 336
+        x: 320
         y: 384
-        width: 42
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 862f7e484cbb02043a059ee62815d4e3
-      internalID: 86924465
+      spriteID: a6b3e47c7bdae47cf94d6e398873e163
+      internalID: 167294206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_114
+      name: punch_right_1
       rect:
         serializedVersion: 2
-        x: 19
+        x: 0
         y: 320
-        width: 26
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db988b5b83666594380a8b5ed2049379
-      internalID: -522968837
+      spriteID: 585b02cd9f890402cadb001b8b85781b
+      internalID: -486030372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_115
+      name: punch_right_2
       rect:
         serializedVersion: 2
-        x: 85
+        x: 64
         y: 320
-        width: 26
-        height: 48
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2b791db355e7d745a88bc1e7276db78
-      internalID: 1561075433
+      spriteID: 2cd2f7e03871147edb0e07562975c021
+      internalID: -198056246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_116
+      name: punch_right_3
       rect:
         serializedVersion: 2
-        x: 148
+        x: 128
+        y: 319
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fd9bd4c5ec84a84bf49cd83e591049
+      internalID: -1882433678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: punch_right_4
+      rect:
+        serializedVersion: 2
+        x: 193
         y: 320
-        width: 27
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35540150573b17142899aafd95bc4e0e
-      internalID: -1453350879
+      spriteID: 4d15796f61eaa4cebad841be0c95f394
+      internalID: 1565630285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_117
+      name: punch_right_5
       rect:
         serializedVersion: 2
-        x: 211
+        x: 256
         y: 320
-        width: 34
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5856e46653315841955ad1d96711d26
-      internalID: 1543859555
+      spriteID: 3086f3f5a1a6c4ed7b812781fa36193f
+      internalID: 1458667385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_118
+      name: punch_right_6
       rect:
         serializedVersion: 2
-        x: 276
+        x: 320
         y: 320
-        width: 36
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e841eee4a0b4bd44dbf20775563d2c38
-      internalID: 1088555544
+      spriteID: 9230e2e93e4904fc4b2194134ab62b02
+      internalID: -1659455642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_119
+      name: human_121
       rect:
         serializedVersion: 2
-        x: 340
-        y: 320
-        width: 33
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3a519b590809894bb805f59e4c51d88
-      internalID: -1208745183
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zombieSpriteSheet_120
-      rect:
-        serializedVersion: 2
-        x: 16
+        x: 0
         y: 256
-        width: 31
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7783aa33019867a438cbd21744406e21
-      internalID: 1447841384
+      spriteID: 8a08bf076e91d48dbabe3acf44e81881
+      internalID: -15267619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_121
+      name: human_122
       rect:
         serializedVersion: 2
-        x: 81
+        x: 64
         y: 256
-        width: 30
-        height: 48
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 848d2c81aa606bd4ea53b04f43f9cee0
-      internalID: 1372227344
+      spriteID: a6afb391069fd4168849518ea19260c2
+      internalID: -1555167888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_122
+      name: human_123
       rect:
         serializedVersion: 2
-        x: 145
+        x: 128
         y: 256
-        width: 30
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4980d254e34153049beef391ab140f45
-      internalID: -1938470795
+      spriteID: 98da2c422e715461a9c358ade648506c
+      internalID: 1267050003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_123
+      name: human_124
       rect:
         serializedVersion: 2
-        x: 209
+        x: 192
         y: 256
-        width: 30
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63ef51fb4645b524491ade678b2200db
-      internalID: -1721785482
+      spriteID: 4d4667f8eb37f4a4a9e6f1db189866e4
+      internalID: -454561015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_124
+      name: human_125
       rect:
         serializedVersion: 2
-        x: 274
+        x: 256
         y: 256
-        width: 29
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d1172e4644cdfa4b8909f404a790d6d
-      internalID: -554268674
+      spriteID: bae23c0319e1548639024d09990859f2
+      internalID: -1515517528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_125
+      name: human_126
       rect:
         serializedVersion: 2
-        x: 338
+        x: 320
         y: 256
-        width: 27
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6172928bceff05e4fa5a447a2f8b3348
-      internalID: -973627437
+      spriteID: 1bd7064cb337441c29c6752849226085
+      internalID: 1499394552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_126
+      name: human_127
       rect:
         serializedVersion: 2
-        x: 403
+        x: 384
         y: 256
-        width: 27
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f91eb19a636fb9438092c66f5d9e3c2
-      internalID: -467805345
+      spriteID: b2032697d34b147108bded087a35e8bc
+      internalID: -42956219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_127
+      name: human_128
       rect:
         serializedVersion: 2
-        x: 467
+        x: 448
         y: 256
-        width: 28
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92eeee549c7f6374fb3257927d6f1977
-      internalID: 1812232864
+      spriteID: 695421c0476e64749884229ea669f818
+      internalID: 857952389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_128
+      name: human_129
       rect:
         serializedVersion: 2
-        x: 531
+        x: 512
         y: 256
-        width: 29
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22ad1de489f7d064bbbbddaeae2b5936
-      internalID: 1600260455
+      spriteID: b7ee7ee35f063465798a0b8e12ff6a90
+      internalID: -935045392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_129
+      name: human_130
       rect:
         serializedVersion: 2
-        x: 594
+        x: 576
         y: 256
-        width: 29
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21caeac6faae34c47a56108949f8b64e
-      internalID: -797318662
+      spriteID: 10884e7a8ee074d2ba1d8d6ecdb318ed
+      internalID: 1356424798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_130
+      name: human_131
       rect:
         serializedVersion: 2
-        x: 657
+        x: 640
         y: 256
-        width: 30
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 755e9a138b746c14984c15ea45f4c032
-      internalID: -196838542
+      spriteID: 9308fa7482ef14db69878b27c59bb270
+      internalID: -1014612689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_131
+      name: human_132
       rect:
         serializedVersion: 2
-        x: 721
+        x: 704
         y: 256
-        width: 30
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8face3fe3ff261347a43637ebdea79b6
-      internalID: 1194815347
+      spriteID: 7a7f8f5540454448f98ca03a3c15ef93
+      internalID: 1574745151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_132
+      name: human_133
       rect:
         serializedVersion: 2
-        x: 785
+        x: 768
         y: 256
-        width: 30
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 869f5ba0848302144afda6b376b26fdc
-      internalID: 1716340787
+      spriteID: 36639625dced64317b792584e02960b6
+      internalID: 428472191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_133
+      name: human_134
       rect:
         serializedVersion: 2
-        x: 19
+        x: 0
         y: 192
-        width: 26
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 833361780baa62040a3947ce1a9578c9
-      internalID: 1942459241
+      spriteID: 76f85a78768294643b3db66888ff076c
+      internalID: -670755557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_134
+      name: human_135
       rect:
         serializedVersion: 2
-        x: 83
+        x: 64
         y: 192
-        width: 27
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98f08f3a929ffa141ab51d5c587ab32e
-      internalID: 359080108
+      spriteID: 045498c76bd1a4c478bcf2288b4a138a
+      internalID: 1428911005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_135
+      name: human_136
       rect:
         serializedVersion: 2
-        x: 143
+        x: 128
         y: 192
-        width: 32
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 413fb5ae15df91c4f95a702c52ab038f
-      internalID: 2107996627
+      spriteID: 735209bec995e45b2863ea080c8d34ab
+      internalID: 1343729557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_136
+      name: human_137
       rect:
         serializedVersion: 2
-        x: 205
+        x: 192
         y: 192
-        width: 35
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23018818c50439f46b543d8a5334d1cd
-      internalID: 338603389
+      spriteID: d43a02ef6f90d4bcb8b5bc25ed5a20a3
+      internalID: -822881562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_137
+      name: human_138
       rect:
         serializedVersion: 2
-        x: 269
+        x: 256
         y: 192
-        width: 35
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fcd5d1c83b52c149a4b439bc78bdffc
-      internalID: 918492414
+      spriteID: de6116f73c4794b0d81d3c660ad704fb
+      internalID: -1927187165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_138
+      name: human_139
       rect:
         serializedVersion: 2
-        x: 332
+        x: 320
         y: 192
-        width: 33
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cfb4cd667b415e4f95b383317082106
-      internalID: -1237462795
+      spriteID: cebea2e6b69f943198d1a367d06be4ff
+      internalID: 1780412215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_139
+      name: human_140
       rect:
         serializedVersion: 2
-        x: 396
+        x: 384
         y: 192
-        width: 35
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6cbe43f307d1444982a38bce703ab69
-      internalID: 1490528783
+      spriteID: 149cd4f4016e740f696a7b44db895e5f
+      internalID: 766571358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_140
+      name: human_141
       rect:
         serializedVersion: 2
-        x: 461
+        x: 448
         y: 192
-        width: 36
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad377b9fee5425547be91ca6aef90409
-      internalID: -1949387435
+      spriteID: 78ff2840247214014a389d994e34cdc2
+      internalID: -1070813303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_141
+      name: human_142
       rect:
         serializedVersion: 2
-        x: 525
+        x: 512
         y: 192
-        width: 38
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92eef407c774f8448ab9f0a73b595032
-      internalID: -2073352726
+      spriteID: 5333a0d1cc2404b7dbd16ba8047047e6
+      internalID: -1709603628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_142
+      name: human_143
       rect:
         serializedVersion: 2
-        x: 589
+        x: 576
         y: 192
-        width: 35
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 167bb28bb0a953e4aa7ba77b366d81af
-      internalID: -266667817
+      spriteID: a7b35ba1c17b54efdaea74f5354ef564
+      internalID: -607356564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_143
+      name: human_144
       rect:
         serializedVersion: 2
-        x: 653
+        x: 640
         y: 192
-        width: 34
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd55aaacec914c14ab1b4503ca0029ae
-      internalID: -1123831477
+      spriteID: cd9de61468c8e44edbee749d9fb7047b
+      internalID: -1304181526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_144
+      name: human_145
       rect:
         serializedVersion: 2
-        x: 717
+        x: 704
         y: 192
-        width: 34
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf6705e4bd0cc1c4d86edfa6e756d477
-      internalID: 1943050683
+      spriteID: 3fed5841140604c96a4b43b5338e1cc5
+      internalID: 1636024555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_145
+      name: human_146
       rect:
         serializedVersion: 2
-        x: 781
+        x: 768
         y: 192
-        width: 34
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0054347b34a68d4584ddd862615a2bd
-      internalID: -254970597
+      spriteID: 389a4f5e91e0c47bb903e51302520940
+      internalID: 392861241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_146
+      name: human_147
       rect:
         serializedVersion: 2
-        x: 16
+        x: 0
         y: 128
-        width: 31
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f0d49a6e7019eb4581523d76b9ec9f5
-      internalID: -484270644
+      spriteID: 3e9ceb4c20763489e937b44621db06d7
+      internalID: 1510371393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_147
+      name: human_148
       rect:
         serializedVersion: 2
-        x: 81
+        x: 64
         y: 128
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 323bf58c5f43f0047812f13c445ef646
-      internalID: 1832712173
+      spriteID: 6b42fca37a7364e22b2ccf82104532ad
+      internalID: 181615370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_148
+      name: human_149
       rect:
         serializedVersion: 2
-        x: 145
+        x: 128
         y: 128
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b9875b40f5efd04c9f6ece952df93ee
-      internalID: 577744733
+      spriteID: 24823ebc19bb54e09acbc1d882a394d5
+      internalID: 319410950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_149
+      name: human_150
       rect:
         serializedVersion: 2
-        x: 209
+        x: 192
         y: 128
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6681befd1db3fa9468dc4d1fc56e77e0
-      internalID: 1716643501
+      spriteID: 36f1f63a536e8458fa9772e5124f6888
+      internalID: -1140353344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_150
+      name: human_151
       rect:
         serializedVersion: 2
-        x: 274
+        x: 256
         y: 128
-        width: 27
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eeedda281b719dd48b1d750fde453916
-      internalID: 1888446986
+      spriteID: 639fc075d14d54736ac866bcadb5e616
+      internalID: 776167863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_151
+      name: human_152
       rect:
         serializedVersion: 2
-        x: 338
+        x: 320
         y: 128
-        width: 27
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcc16462641bd8d42a3f7008ae6e42e4
-      internalID: 1983031719
+      spriteID: 5d0fdeb9486904d84a95119fab846909
+      internalID: 1442039371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_152
+      name: human_153
       rect:
         serializedVersion: 2
-        x: 402
+        x: 384
         y: 128
-        width: 27
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e59edb3b2cf30f94c96dccc51a733d7e
-      internalID: -373552599
+      spriteID: f42209ba6172543edb6301db76b54769
+      internalID: 359401947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_153
+      name: human_154
       rect:
         serializedVersion: 2
-        x: 466
+        x: 448
         y: 128
-        width: 27
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: baf92a34dba950d4a9634aaf360d22a8
-      internalID: -1313992109
+      spriteID: 3d3948a68b5134493958893b06121bbb
+      internalID: 205934704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_154
+      name: human_155
       rect:
         serializedVersion: 2
-        x: 530
+        x: 512
         y: 128
-        width: 27
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16ac895dd25dfdc4b917ca7f3a16d249
-      internalID: 532335932
+      spriteID: 2633718f11aba4894bff954d01a69ae4
+      internalID: -1061323633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_155
+      name: human_156
       rect:
         serializedVersion: 2
-        x: 594
+        x: 576
         y: 128
-        width: 27
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54d13a20c30d7d24e89950e8b7219ab8
-      internalID: -169865008
+      spriteID: b81ae4839c32c479cb1f55b7486075f3
+      internalID: -1196561138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_156
+      name: human_157
       rect:
         serializedVersion: 2
-        x: 658
+        x: 640
         y: 128
-        width: 27
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1831c46091050ae45ade1e44b5f0e342
-      internalID: -1277340682
+      spriteID: 05ad754c7171f4b52b2f3f0344e7e742
+      internalID: -219691631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_157
+      name: human_158
       rect:
         serializedVersion: 2
-        x: 722
+        x: 704
         y: 128
-        width: 28
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca51185e86c5c364da0fd5b2d619cc7b
-      internalID: 582256824
+      spriteID: d41630e7cc60b4154801564664ce1d84
+      internalID: -2052416025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_158
+      name: human_159
       rect:
         serializedVersion: 2
-        x: 786
+        x: 768
         y: 128
-        width: 28
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3097fb2843eb32547a0a9c295972581e
-      internalID: -557910651
+      spriteID: 0dffc4ad52ffa4224b14a0d23bb85071
+      internalID: 1701768562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_159
+      name: human_160
       rect:
         serializedVersion: 2
-        x: 19
+        x: 0
         y: 64
-        width: 26
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d6b091c3b4bc9d40882424ac1c415f2
-      internalID: -572165704
+      spriteID: dc3ea370df2124605adbc432e0ad60e3
+      internalID: 436626339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_160
+      name: human_161
       rect:
         serializedVersion: 2
-        x: 82
+        x: 64
         y: 64
-        width: 27
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e91e2c0494d9a304ba0bc4f4f38ea849
-      internalID: -921034953
+      spriteID: 9940d21323e9e4bf2b644f763e4637ef
+      internalID: 560842118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_161
+      name: human_162
       rect:
         serializedVersion: 2
-        x: 145
+        x: 128
         y: 64
-        width: 32
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9160e5cf2f4d68648b59432bc70ad8ef
-      internalID: -777226069
+      spriteID: 8c7d52ab04dde4f1bbe1401004bef4e1
+      internalID: -423582569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_162
+      name: human_163
       rect:
         serializedVersion: 2
-        x: 208
+        x: 192
         y: 64
-        width: 35
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7af457b01719985448473d018e985d9a
-      internalID: -1437586394
+      spriteID: ace668034006f409ba28f5418172aa80
+      internalID: 441156985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_163
+      name: human_164
       rect:
         serializedVersion: 2
-        x: 272
+        x: 256
         y: 64
-        width: 35
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64010271d52fb3d49b6b7f7ab1ffa48f
-      internalID: -1114631123
+      spriteID: d842951d6897f4e76b3580a5f1d53505
+      internalID: 1782431438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_164
+      name: human_165
       rect:
         serializedVersion: 2
-        x: 339
+        x: 320
         y: 64
-        width: 33
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd4e8b77461b51843881a13e9fa4bf8a
-      internalID: 631646325
+      spriteID: 7dde2d73dd33c4a09a75de53ddf18b1f
+      internalID: -1456244234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_165
+      name: human_166
       rect:
         serializedVersion: 2
-        x: 401
+        x: 384
         y: 64
-        width: 35
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff125875b1ef45041bc2a35cb3c32c63
-      internalID: 1206129950
+      spriteID: 16599f56fc2cb42a5b10b5ac22983375
+      internalID: -1983324191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_166
+      name: human_167
       rect:
         serializedVersion: 2
-        x: 463
+        x: 448
         y: 64
-        width: 36
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f042e16d90562bd41b05062aaa553444
-      internalID: -1523113987
+      spriteID: d7a9c8c45b0a14e7fa30914d01f83dd1
+      internalID: -1923223769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_167
+      name: human_168
       rect:
         serializedVersion: 2
-        x: 525
+        x: 512
         y: 64
-        width: 38
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93231ab8f5d46ce409585e6cae455431
-      internalID: 1065068560
+      spriteID: 9e81944a0cef144c09f058441821c331
+      internalID: 1172695948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_168
+      name: human_169
       rect:
         serializedVersion: 2
-        x: 592
+        x: 576
         y: 64
-        width: 35
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6347b6bfdb61ec459d5c5c78fb85e72
-      internalID: 1244419255
+      spriteID: 4bcc0f75cd6124bb082b5ea6437677ea
+      internalID: -1685095668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_169
+      name: human_170
       rect:
         serializedVersion: 2
-        x: 657
+        x: 640
         y: 64
-        width: 34
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71a7abb0db8697f409e95659aa6e445f
-      internalID: 754703260
+      spriteID: 2f8ac034baa7a4b798d91bde8d186f50
+      internalID: 221584076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_170
+      name: human_171
       rect:
         serializedVersion: 2
-        x: 721
+        x: 704
         y: 64
-        width: 34
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a55bf49b10059384da08d4524e74d10b
-      internalID: 1246959990
+      spriteID: 8e15efb5bc94c43b2ac70fef8303df8f
+      internalID: -98872071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_171
+      name: human_172
       rect:
         serializedVersion: 2
-        x: 785
+        x: 768
         y: 64
-        width: 34
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 843c5ccd78e7e6b478bfc7b67bad8b84
-      internalID: 1823772835
+      spriteID: 32e63175bf4e741f6bfca974d3a64956
+      internalID: -654800945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_172
+      name: death_1
       rect:
         serializedVersion: 2
-        x: 17
+        x: 0
         y: 0
-        width: 30
-        height: 50
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60ba48ce30f8d434489412f4db160b53
-      internalID: -1263853772
+      spriteID: 7dc91f377072642bb8c2d99089e82572
+      internalID: -937327981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_173
+      name: death_2
       rect:
         serializedVersion: 2
-        x: 81
+        x: 63
         y: 0
-        width: 33
-        height: 49
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f151093e41d423459d71fe5884752ad
-      internalID: -1484586071
+      spriteID: 86b028fb6c1cb4c6cb79c70b33e17dea
+      internalID: -1165094351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_174
+      name: death_3
       rect:
         serializedVersion: 2
-        x: 144
+        x: 127
         y: 0
-        width: 35
-        height: 42
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 619b3a24dee214841989a895bfdd119a
-      internalID: 926195829
+      spriteID: 4e249927483d44545bb0e3cd0f215a8a
+      internalID: -1254844079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_175
+      name: death_4
       rect:
         serializedVersion: 2
-        x: 208
+        x: 192
         y: 0
-        width: 35
-        height: 38
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2785fcbb44c86734eb22a815b46dd8c8
-      internalID: 18246307
+      spriteID: 586ddf0dd038f4a648371349ed801cb0
+      internalID: -1923858522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zombieSpriteSheet_176
+      name: death_5
       rect:
         serializedVersion: 2
-        x: 274
-        y: 1
-        width: 33
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 284ee7403f1a0d3439a3c1190c829332
-      internalID: 40933454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zombieSpriteSheet_177
-      rect:
-        serializedVersion: 2
-        x: 338
+        x: 256
         y: 0
-        width: 34
-        height: 36
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a13179b52887c9b45a77304f1e5209db
-      internalID: -209194544
+      spriteID: d8ef4d4aeba894376b390bffdc76ba77
+      internalID: 263933236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: speel_up_
+      name: death_6
       rect:
         serializedVersion: 2
-        x: 17
-        y: 1280
-        width: 30
-        height: 49
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfab16673dd49304f843f1eae4592c3f
-      internalID: 310817817
+      spriteID: de44641e0fe1b4ee09becf118c61e3f3
+      internalID: 311022585
       vertices: []
       indices: 
       edges: []
@@ -3886,185 +3874,185 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      speel_down_1: -1930378145
-      speel_down_2: -1290218173
-      speel_down_3: 1256765276
-      speel_down_4: 1240555994
-      speel_down_5: 1429277722
-      speel_down_6: -600543219
-      speel_down_7: 376080004
-      speel_left_1: 1522014533
-      speel_left_2: 574142763
-      speel_left_3: 694669969
-      speel_left_4: 458772789
-      speel_left_5: 1536808115
-      speel_left_6: 1260334831
-      speel_left_7: -1823661285
-      speel_right_1: 483039569
-      speel_right_2: 131543045
-      speel_right_3: 954756318
-      speel_right_4: 2068286182
-      speel_right_5: 1266202513
-      speel_right_6: 1219064415
-      speel_right_7: 486049380
-      speel_up_: -363873295
-      speel_up_1: -783313024
-      speel_up_2: -770067697
-      speel_up_3: -415350668
-      speel_up_4: 765795958
-      speel_up_5: -721812984
-      speel_up_6: -386855453
-      speel_up_7: -1788605788
-      walk_down_1: -898038008
-      walk_down_2: -1603865111
-      walk_down_3: 1416671009
-      walk_down_4: -1982662483
-      walk_down_5: 1790486322
-      walk_down_6: -1353525693
-      walk_down_7: -1038373223
-      walk_down_8: 1932839620
-      walk_down_9: -1347210278
-      walk_left_1: -1597979474
-      walk_left_2: -1564521390
-      walk_left_3: 1544435124
-      walk_left_4: -1021676159
-      walk_left_5: 1251875591
-      walk_left_6: 792538468
-      walk_left_7: 812522774
-      walk_left_8: -1158737455
-      walk_left_9: 1670796096
-      walk_right_1: 1000227486
-      walk_right_2: 2052481270
-      walk_right_3: 2083771368
-      walk_right_4: -1161076016
-      walk_right_5: 1636162296
-      walk_right_6: 117010843
-      walk_right_7: -673016898
-      walk_right_8: 465982322
-      walk_right_9: -1990184189
-      walk_up_1: -721010282
-      walk_up_2: 1244689042
-      walk_up_3: 1533012586
-      walk_up_4: 725944484
-      walk_up_5: -708006211
-      walk_up_6: -530319938
-      walk_up_7: 779378520
-      walk_up_8: -441545885
-      walk_up_9: 1150989150
-      zombieSpriteSheet_100: 1342910681
-      zombieSpriteSheet_101: 1554866903
-      zombieSpriteSheet_102: -466015084
-      zombieSpriteSheet_103: -1076631358
-      zombieSpriteSheet_104: 1746418223
-      zombieSpriteSheet_105: -1347136571
-      zombieSpriteSheet_106: -1708594630
-      zombieSpriteSheet_107: 103570501
-      zombieSpriteSheet_108: 1110473567
-      zombieSpriteSheet_109: -1855063180
-      zombieSpriteSheet_110: -542509821
-      zombieSpriteSheet_111: 914640707
-      zombieSpriteSheet_112: -941061771
-      zombieSpriteSheet_113: 86924465
-      zombieSpriteSheet_114: -522968837
-      zombieSpriteSheet_115: 1561075433
-      zombieSpriteSheet_116: -1453350879
-      zombieSpriteSheet_117: 1543859555
-      zombieSpriteSheet_118: 1088555544
-      zombieSpriteSheet_119: -1208745183
-      zombieSpriteSheet_120: 1447841384
-      zombieSpriteSheet_121: 1372227344
-      zombieSpriteSheet_122: -1938470795
-      zombieSpriteSheet_123: -1721785482
-      zombieSpriteSheet_124: -554268674
-      zombieSpriteSheet_125: -973627437
-      zombieSpriteSheet_126: -467805345
-      zombieSpriteSheet_127: 1812232864
-      zombieSpriteSheet_128: 1600260455
-      zombieSpriteSheet_129: -797318662
-      zombieSpriteSheet_130: -196838542
-      zombieSpriteSheet_131: 1194815347
-      zombieSpriteSheet_132: 1716340787
-      zombieSpriteSheet_133: 1942459241
-      zombieSpriteSheet_134: 359080108
-      zombieSpriteSheet_135: 2107996627
-      zombieSpriteSheet_136: 338603389
-      zombieSpriteSheet_137: 918492414
-      zombieSpriteSheet_138: -1237462795
-      zombieSpriteSheet_139: 1490528783
-      zombieSpriteSheet_140: -1949387435
-      zombieSpriteSheet_141: -2073352726
-      zombieSpriteSheet_142: -266667817
-      zombieSpriteSheet_143: -1123831477
-      zombieSpriteSheet_144: 1943050683
-      zombieSpriteSheet_145: -254970597
-      zombieSpriteSheet_146: -484270644
-      zombieSpriteSheet_147: 1832712173
-      zombieSpriteSheet_148: 577744733
-      zombieSpriteSheet_149: 1716643501
-      zombieSpriteSheet_150: 1888446986
-      zombieSpriteSheet_151: 1983031719
-      zombieSpriteSheet_152: -373552599
-      zombieSpriteSheet_153: -1313992109
-      zombieSpriteSheet_154: 532335932
-      zombieSpriteSheet_155: -169865008
-      zombieSpriteSheet_156: -1277340682
-      zombieSpriteSheet_157: 582256824
-      zombieSpriteSheet_158: -557910651
-      zombieSpriteSheet_159: -572165704
-      zombieSpriteSheet_160: -921034953
-      zombieSpriteSheet_161: -777226069
-      zombieSpriteSheet_162: -1437586394
-      zombieSpriteSheet_163: -1114631123
-      zombieSpriteSheet_164: 631646325
-      zombieSpriteSheet_165: 1206129950
-      zombieSpriteSheet_166: -1523113987
-      zombieSpriteSheet_167: 1065068560
-      zombieSpriteSheet_168: 1244419255
-      zombieSpriteSheet_169: 754703260
-      zombieSpriteSheet_170: 1246959990
-      zombieSpriteSheet_171: 1823772835
-      zombieSpriteSheet_172: -1263853772
-      zombieSpriteSheet_173: -1484586071
-      zombieSpriteSheet_174: 926195829
-      zombieSpriteSheet_175: 18246307
-      zombieSpriteSheet_176: 40933454
-      zombieSpriteSheet_177: -209194544
-      zombieSpriteSheet_28: -721010282
-      zombieSpriteSheet_29: 1244689042
-      zombieSpriteSheet_30: 1533012586
-      zombieSpriteSheet_31: 725944484
-      zombieSpriteSheet_32: -708006211
-      zombieSpriteSheet_33: -530319938
-      zombieSpriteSheet_34: 779378520
-      zombieSpriteSheet_35: -441545885
-      zombieSpriteSheet_36: 1150989150
-      zombieSpriteSheet_37: -1597979474
-      zombieSpriteSheet_38: -1564521390
-      zombieSpriteSheet_39: 1544435124
-      zombieSpriteSheet_40: -1021676159
-      zombieSpriteSheet_41: 1251875591
-      zombieSpriteSheet_42: 792538468
-      zombieSpriteSheet_43: 812522774
-      zombieSpriteSheet_44: -1158737455
-      zombieSpriteSheet_45: 1670796096
-      zombieSpriteSheet_46: -898038008
-      zombieSpriteSheet_47: -1603865111
-      zombieSpriteSheet_48: 1416671009
-      zombieSpriteSheet_49: -1982662483
-      zombieSpriteSheet_50: 1790486322
-      zombieSpriteSheet_51: -1353525693
-      zombieSpriteSheet_52: -1038373223
-      zombieSpriteSheet_53: 1932839620
-      zombieSpriteSheet_54: -1347210278
-      zombieSpriteSheet_55: 1000227486
-      zombieSpriteSheet_56: 2052481270
-      zombieSpriteSheet_57: 2083771368
-      zombieSpriteSheet_58: -1161076016
-      zombieSpriteSheet_59: 1636162296
-      zombieSpriteSheet_96: -1909126803
-      zombieSpriteSheet_97: 1628263699
-      zombieSpriteSheet_98: 1201689162
-      zombieSpriteSheet_99: 981342748
+      death_1: -937327981
+      death_2: -1165094351
+      death_3: -1254844079
+      death_4: -1923858522
+      death_5: 263933236
+      death_6: 311022585
+      human_0: 914092987
+      human_1: -650448078
+      human_10: 1074378002
+      human_11: -2116234052
+      human_12: -45361097
+      human_121: -1555167888
+      human_122: 1267050003
+      human_123: -454561015
+      human_124: -1515517528
+      human_125: 1499394552
+      human_126: -42956219
+      human_127: 857952389
+      human_128: -935045392
+      human_129: 1356424798
+      human_13: -1429950629
+      human_130: -1014612689
+      human_131: 1574745151
+      human_132: 428472191
+      human_133: -670755557
+      human_134: 1428911005
+      human_135: 1343729557
+      human_136: -822881562
+      human_137: -1927187165
+      human_138: 1780412215
+      human_139: 766571358
+      human_14: -1493031608
+      human_140: -1070813303
+      human_141: -1709603628
+      human_142: -607356564
+      human_143: -1304181526
+      human_144: 1636024555
+      human_145: 392861241
+      human_146: 1510371393
+      human_147: 181615370
+      human_148: 319410950
+      human_149: -1140353344
+      human_15: -897701920
+      human_150: 776167863
+      human_151: 1442039371
+      human_152: 359401947
+      human_153: 205934704
+      human_154: -1061323633
+      human_155: -1196561138
+      human_156: -219691631
+      human_157: -2052416025
+      human_158: 1701768562
+      human_159: 436626339
+      human_16: -487602923
+      human_160: 560842118
+      human_161: -423582569
+      human_162: 441156985
+      human_163: 1782431438
+      human_164: -1456244234
+      human_165: -1983324191
+      human_166: -1923223769
+      human_167: 1172695948
+      human_168: -1685095668
+      human_169: 221584076
+      human_17: 1911838593
+      human_170: -98872071
+      human_171: -654800945
+      human_172: -937327981
+      human_18: -1720302157
+      human_19: -1660557273
+      human_2: -1818507261
+      human_20: 873779589
+      human_21: -1411536955
+      human_22: -831336473
+      human_23: 2061772381
+      human_24: 1613406118
+      human_25: -1454890646
+      human_26: -787929541
+      human_27: -1124303629
+      human_28: -224573998
+      human_29: 450366862
+      human_3: -1999447168
+      human_30: 555032049
+      human_31: 823186203
+      human_32: -1384039855
+      human_33: 425963705
+      human_34: -448883860
+      human_35: -1206971522
+      human_36: 1129085025
+      human_37: 2039046465
+      human_38: -1523729382
+      human_39: 95511251
+      human_4: -1421706561
+      human_40: 497712545
+      human_41: -883916654
+      human_42: 1455049239
+      human_43: -245645017
+      human_44: -1305103595
+      human_45: 1854245813
+      human_46: -1913762094
+      human_47: 1776833242
+      human_48: 1663996408
+      human_49: -481459379
+      human_5: 643277869
+      human_50: 196768856
+      human_51: 1362233320
+      human_52: -554756257
+      human_53: 1219646145
+      human_54: 587691877
+      human_55: 1586181075
+      human_56: -56111781
+      human_57: 518396246
+      human_58: 377227122
+      human_59: -1800412325
+      human_6: -1393006266
+      human_60: 995300183
+      human_7: 1674584459
+      human_8: 676369179
+      human_80: 1716063898
+      human_9: 1609954785
+      punch_back_1: -1249712691
+      punch_back_2: 2081733080
+      punch_back_3: -1986622829
+      punch_back_4: 976967608
+      punch_back_5: -770461092
+      punch_back_6: -1069200729
+      punch_front_1: -850151710
+      punch_front_2: -1448051888
+      punch_front_3: 1130861628
+      punch_front_4: 1936896643
+      punch_front_5: 505321024
+      punch_front_6: 167294206
+      punch_left_1: -1602645944
+      punch_left_2: 379585728
+      punch_left_3: -376129779
+      punch_left_4: -1233566665
+      punch_left_5: 1762132466
+      punch_left_6: 716440974
+      punch_right_1: -486030372
+      punch_right_2: -198056246
+      punch_right_3: -1882433678
+      punch_right_4: 1565630285
+      punch_right_5: 1458667385
+      punch_right_6: -1659455642
+      walk_back_1: 1067836602
+      walk_back_2: 1047229121
+      walk_back_3: -1820827400
+      walk_back_4: 2054250457
+      walk_back_5: 127190292
+      walk_back_6: -1959741667
+      walk_back_7: 343616290
+      walk_back_8: 802291548
+      walk_back_9: 1963718989
+      walk_front_1: -1953595725
+      walk_front_3: 1716063898
+      walk_front_4: 765223676
+      walk_front_5: 1132367152
+      walk_front_6: 390509881
+      walk_front_7: 1466281350
+      walk_front_8: -2039369398
+      walk_front_9: 1467413736
+      walk_left_1: 894254755
+      walk_left_2: -355681873
+      walk_left_3: -1641801718
+      walk_left_4: 1747065133
+      walk_left_5: -1744256504
+      walk_left_6: 557333828
+      walk_left_7: -1663569075
+      walk_left_8: -1025789386
+      walk_left_9: -1638143789
+      walk_right_1: 901495292
+      walk_right_2: -2078758962
+      walk_right_3: -740960458
+      walk_right_4: 708600304
+      walk_right_5: -921322057
+      walk_right_6: 976818627
+      walk_right_7: 1014135422
+      walk_right_8: -1069849162
+      walk_right_9: 1730806995
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
