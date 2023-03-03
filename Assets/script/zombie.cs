@@ -16,7 +16,9 @@ public class zombie : MonoBehaviour
     Vector2 movement;
     private float posX;
     private float posY;
+    private float lastDir;
     public Animator animator;
+    private bool Attack = false;
     void Start()
     {
         mass = body.mass;
@@ -34,31 +36,58 @@ public class zombie : MonoBehaviour
 
         animator.SetFloat("Horizontal",movement.x);
         animator.SetFloat("Vertical",movement.y);
-        // animator.SetFloat("Speed",movement.sqrMagnitude);
+        animator.SetFloat("Speed",movement.sqrMagnitude);
+        animator.SetFloat("LastDir",lastDir);
 
     }
 
     void FixedUpdate(){
         body.MovePosition(body.position + movement * speed * Time.fixedDeltaTime);
+        animator.SetBool("Attack",Attack);
+        Attack = false;
     }
 
     void OnRight(InputValue val){
         if(val.Get<float>() == 0)goRight = false;
-        else goRight = true;
+        else {
+            goRight = true;
+            lastDir = 4;
+        }
     }
     
     void OnLeft(InputValue val){
         if(val.Get<float>() == 0)goLeft = false;
-        else goLeft = true;
+        else {
+            goLeft = true;
+            lastDir = 3;
+        }
     }
     
     void OnUp(InputValue val){
         if(val.Get<float>() == 0)goUp = false;
-        else goUp = true;
+        else {
+            goUp = true;
+            lastDir = 2;
+        }
     }
     
     void OnDown(InputValue val){
         if(val.Get<float>() == 0)goDown = false;
-        else goDown = true;
+        else {
+            goDown = true;
+            lastDir = 1;
+        }
+    }
+    void OnAttack(){
+        Debug.Log("attack");
+        Attack = true;
+        StopMoving();
+    }
+
+    void StopMoving(){
+        goDown = false;
+        goLeft = false;
+        goRight = false;
+        goUp = false;
     }
 }
