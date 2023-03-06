@@ -11,7 +11,7 @@ public class zombie : MonoBehaviour
     private bool goUp = false;
     private bool goDown = false;
     public float mass;
-    public float speed = 5f;
+    public float speed = 200f;
     public Rigidbody2D body;
     Vector2 movement;
     private float posX;
