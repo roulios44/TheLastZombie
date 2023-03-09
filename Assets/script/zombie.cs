@@ -18,6 +18,9 @@ public class zombie : MonoBehaviour
     private float posY;
     private float lastDir;
     public Animator animator;
+    public Transform attackPoint;
+    public float attackRange = 0.5f;
+    public LayerMask ennemyLayer;
     void Start()
     {
         mass = body.mass;
@@ -78,6 +81,10 @@ public class zombie : MonoBehaviour
     void OnAttack(){
         animator.SetTrigger("Attack");
         StopMoving();
+        Collider2D[] hitEnnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange,ennemyLayer);
+        foreach(Collider2D ennemy in hitEnnemies){
+            Debug.Log("hit a ennemy " + ennemy.name);
+        }
     }
 
     void StopMoving(){
@@ -85,5 +92,10 @@ public class zombie : MonoBehaviour
         goLeft = false;
         goRight = false;
         goUp = false;
+    }
+
+    void OnDrawGizmosSelected(){
+        if(attackPoint == null)return;
+        Gizmos.DrawWireSphere(attackPoint.position,attackRange);
     }
 }
