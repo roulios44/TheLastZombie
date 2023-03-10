@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    // public GameObject mainZombie = new GameObject();
     private bool isAlive = true;
     public int maxHP = 100;
     int currentHP;
@@ -35,6 +36,6 @@ public class Enemy : MonoBehaviour
     }
 
     int GetOrientationPlayer(){
-
+        return 1;
     }
 }

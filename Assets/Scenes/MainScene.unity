@@ -8133,7 +8133,7 @@ GameObject:
   - component: {fileID: 1472503269}
   - component: {fileID: 1472503268}
   - component: {fileID: 1472503270}
-  m_Layer: 0
+  m_Layer: 23
   m_Name: Human
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8313,9 +8313,9 @@ GameObject:
   - component: {fileID: 1599577371}
   - component: {fileID: 1599577370}
   - component: {fileID: 1599577373}
-  - component: {fileID: 1599577374}
   - component: {fileID: 1599577375}
-  m_Layer: 0
+  - component: {fileID: 1599577377}
+  m_Layer: 23
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8406,22 +8406,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   target: {fileID: 1919068288}
---- !u!58 &1599577374
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1599577369}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.0022277832, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.30616283
 --- !u!61 &1599577375
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8469,6 +8453,19 @@ RectTransform:
   m_AnchoredPosition: {x: -15.96, y: -1.76}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1599577377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599577369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11eb807449b93d3459c9a9efae287756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHP: 100
 --- !u!4 &1644528786 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2577585254963922481, guid: f6a5710827e32d3489da2c249e3bc400,
@@ -17035,7 +17032,8 @@ MonoBehaviour:
   attackRange: 6.74
   ennemyLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8388608
+  damage: 20
 --- !u!61 &1919068292
 BoxCollider2D:
   m_ObjectHideFlags: 0
