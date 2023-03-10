@@ -80,7 +80,7 @@ public class Zombie : MonoBehaviour
             animator.SetTrigger("Attack");
             Collider2D[] hitEnnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange,ennemyLayer);
             foreach(Collider2D enemy in hitEnnemies){
-                enemy.GetComponent<Enemy>().TakeDamage(this.damage);    
+                enemy.GetComponent<Enemy>().TakeDamage(this.damage);
             }
         }
     }

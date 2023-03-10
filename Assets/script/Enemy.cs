@@ -27,7 +27,7 @@ public class Enemy : MonoBehaviour
         if(!this.isAlive)animator.SetBool("isAlive",false);
     }
 
-    public bool GetIsAlive(){
+    public bool IsAlive(){
         return this.isAlive;
     }
 
@@ -39,9 +39,8 @@ public class Enemy : MonoBehaviour
 
     void Die(){
         this.isAlive = false;
-        Debug.Log("enemy is dead");
         GetComponent<Pathfinding.AIPath>().canMove = false;
-
+        Destroy(this.gameObject,10);
     }
 
     void GetOrientationPlayer(){
