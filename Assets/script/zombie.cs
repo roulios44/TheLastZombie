@@ -5,7 +5,6 @@ using UnityEngine.InputSystem;
 
 public class Zombie : MonoBehaviour
 {
-    // Start is called before the first frame update
     private bool goRight = false;
     private bool goLeft = false;
     private bool goUp = false;
@@ -27,7 +26,6 @@ public class Zombie : MonoBehaviour
         mass = body.mass;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (goLeft) movement.x = -1;

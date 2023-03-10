@@ -33,4 +33,8 @@ public class Enemy : MonoBehaviour
         this.isAlive = false;
         Debug.Log("enemy is dead");
     }
+
+    int GetOrientationPlayer(){
+
+    }
 }
