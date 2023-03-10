@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class zombie : MonoBehaviour
+public class Zombie : MonoBehaviour
 {
     // Start is called before the first frame update
     private bool goRight = false;
@@ -21,6 +21,7 @@ public class zombie : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask ennemyLayer;
+    public int damage = 20;
     void Start()
     {
         mass = body.mass;
@@ -78,12 +79,14 @@ public class zombie : MonoBehaviour
             lastDir = 1;
         }
     }
-    void OnAttack(){
-        animator.SetTrigger("Attack");
-        StopMoving();
-        Collider2D[] hitEnnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange,ennemyLayer);
-        foreach(Collider2D ennemy in hitEnnemies){
-            Debug.Log("hit a ennemy " + ennemy.name);
+    void OnAttack(InputValue val){
+        if(val.Get<float>()==1){
+            animator.SetTrigger("Attack");
+            StopMoving();
+            Collider2D[] hitEnnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange,ennemyLayer);
+            foreach(Collider2D enemy in hitEnnemies){
+                enemy.GetComponent<Enemy>().TakeDamage(this.damage);
+            }
         }
     }
 
