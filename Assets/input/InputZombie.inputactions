@@ -248,6 +248,17 @@
                 },
                 {
                     "name": "",
+                    "id": "2da155c3-4562-4cf0-803e-a0b9f4ad3c4a",
+                    "path": "<Joystick>/stick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joystick",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "1cc78a4d-da5c-4b87-9923-588ca5bc6b6a",
                     "path": "<Keyboard>/a",
                     "interactions": "",
@@ -264,6 +275,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3f5b7add-8efb-41a6-a9d3-47a45d673856",
+                    "path": "<Joystick>/stick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joystick",
                     "action": "Left",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -292,6 +314,17 @@
                 },
                 {
                     "name": "",
+                    "id": "9e802301-fb61-4eac-98f5-6ad95437a324",
+                    "path": "<Joystick>/stick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joystick",
+                    "action": "Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "664d2993-4159-4c74-ba67-9e8f3e696fa7",
                     "path": "<Keyboard>/w",
                     "interactions": "",
@@ -314,11 +347,33 @@
                 },
                 {
                     "name": "",
+                    "id": "aa07dd3e-4aeb-46e5-a9be-58b51b0f87f4",
+                    "path": "<Joystick>/stick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joystick",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "a2d8ac57-3ce7-400d-82e6-937d7cffc378",
-                    "path": "<Keyboard>/u",
+                    "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3af347ea-fb36-499e-9742-2bfa701a2bfc",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false

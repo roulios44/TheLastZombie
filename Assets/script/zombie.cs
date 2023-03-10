@@ -13,8 +13,6 @@ public class Zombie : MonoBehaviour
     public float speed = 200f;
     public Rigidbody2D body;
     Vector2 movement;
-    private float posX;
-    private float posY;
     private float lastDir;
     public Animator animator;
     public Transform attackPoint;
@@ -39,7 +37,6 @@ public class Zombie : MonoBehaviour
         animator.SetFloat("Vertical",movement.y);
         animator.SetFloat("Speed",movement.sqrMagnitude);
         animator.SetFloat("LastDir",lastDir);
-
     }
 
     void FixedUpdate()
@@ -79,11 +76,13 @@ public class Zombie : MonoBehaviour
     }
     void OnAttack(InputValue val){
         if(val.Get<float>()==1){
-            animator.SetTrigger("Attack");
             StopMoving();
+            animator.SetTrigger("Attack");
             Collider2D[] hitEnnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange,ennemyLayer);
             foreach(Collider2D enemy in hitEnnemies){
-                enemy.GetComponent<Enemy>().TakeDamage(this.damage);
+                if(enemy.GetIsAlive()){
+                    enemy.GetComponent<Enemy>().TakeDamage(this.damage);    
+                }
             }
         }
     }
