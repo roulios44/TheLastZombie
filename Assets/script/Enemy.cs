@@ -15,6 +15,7 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        mainZombie = GameObject.Find("zombie");
         this.currentHP = maxHP;
     }
 
@@ -26,7 +27,7 @@ public class Enemy : MonoBehaviour
         if(!this.isAlive)animator.SetBool("isAlive",false);
     }
 
-    bool GetIsAlive(){
+    public bool GetIsAlive(){
         return this.isAlive;
     }
 
@@ -40,7 +41,6 @@ public class Enemy : MonoBehaviour
         this.isAlive = false;
         Debug.Log("enemy is dead");
         GetComponent<Pathfinding.AIPath>().canMove = false;
-        GameObject newInstance = GameObject.Instantiate(referencePrefab,position,rotation);
 
     }
 
