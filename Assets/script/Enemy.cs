@@ -9,13 +9,14 @@ public class Enemy : MonoBehaviour
     public GameObject mainZombie;
     private bool isAlive = true;
     public int maxHP = 100;
+    public bool canBeHit = true;
 
     private int dirZombie;
     int currentHP;
     // Start is called before the first frame update
     void Start()
     {
-        mainZombie = GameObject.Find("zombie");
+        this.mainZombie = GameObject.Find("zombie");
         this.currentHP = maxHP;
     }
 
@@ -23,7 +24,7 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         this.GetOrientationPlayer();
-        animator.SetFloat("zombiePosition",dirZombie);
+        this.animator.SetFloat("zombiePosition",this.dirZombie);
         if(!this.isAlive)animator.SetBool("isAlive",false);
     }
 
@@ -32,8 +33,8 @@ public class Enemy : MonoBehaviour
     }
 
     public void TakeDamage(int damage){
-        currentHP-=damage;
-        if(currentHP<=0)Die();
+        this.currentHP-=damage;
+        if(this.currentHP<=0)Die();
         else Debug.Log("enemy is at " + this.currentHP + " HP");
     }
 

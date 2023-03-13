@@ -10,7 +10,7 @@ public class Zombie : MonoBehaviour
     private bool goUp = false;
     private bool goDown = false;
     public float mass;
-    public float speed = 200f;
+    public float speed = 1f;
     public Rigidbody2D body;
     Vector2 movement;
     private float lastDir;
@@ -80,7 +80,12 @@ public class Zombie : MonoBehaviour
             animator.SetTrigger("Attack");
             Collider2D[] hitEnnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange,ennemyLayer);
             foreach(Collider2D enemy in hitEnnemies){
-                enemy.GetComponent<Enemy>().TakeDamage(this.damage);
+                Enemy enemyObject = enemy.GetComponent<Enemy>();
+                enemyObject.TakeDamage(this.damage);
+                if(!enemyObject.IsAlive() && enemyObject.canBeHit){
+                    ScoreManager.instance.AddPoint();
+                    enemyObject.canBeHit = false;
+                }
             }
         }
     }
@@ -95,5 +100,9 @@ public class Zombie : MonoBehaviour
     void OnDrawGizmosSelected(){
         if(attackPoint == null)return;
         Gizmos.DrawWireSphere(attackPoint.position,attackRange);
+    }
+
+    void OnCollisionEnter(Collision collisionInfo){
+        Debug.Log(collisionInfo);
     }
 }
