@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+
 
 public class Zombie : MonoBehaviour
 {
@@ -104,5 +106,8 @@ public class Zombie : MonoBehaviour
 
     void OnCollisionEnter(Collision collisionInfo){
         Debug.Log(collisionInfo);
+    }
+    void OnRestart(){
+        SceneManager.LoadScene("MainScene");
     }
 }
