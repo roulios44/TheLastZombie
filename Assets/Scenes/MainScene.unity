@@ -6871,7 +6871,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 238579720}
   highScoreText: {fileID: 1155300232}
-  timerTxt: {fileID: 0}
+  timerTxt: {fileID: 1108785801}
   currentTime: 0
 --- !u!114 &1216868883
 MonoBehaviour:
