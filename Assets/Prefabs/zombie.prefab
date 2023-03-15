@@ -45,12 +45,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8074538175837505330}
-  - component: {fileID: 8074538175837505329}
   - component: {fileID: 8074538175837505335}
   - component: {fileID: 8074538175837505334}
   - component: {fileID: 8074538175837505332}
   - component: {fileID: 8074538175837505333}
   - component: {fileID: 8074538175837505338}
+  - component: {fileID: 1650561059063006317}
   m_Layer: 6
   m_Name: zombie
   m_TagString: Untagged
@@ -79,28 +79,6 @@ RectTransform:
   m_AnchoredPosition: {x: -18.326, y: -3.219}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &8074538175837505329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8074538175837505485}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 574e7b4064a1fb1489f807d96999506f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mass: 0
-  speed: 1
-  body: {fileID: 8074538175837505335}
-  animator: {fileID: 8074538175837505333}
-  attackPoint: {fileID: 8074538175314352567}
-  attackRange: 0.5
-  ennemyLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  damage: 20
 --- !u!50 &8074538175837505335
 Rigidbody2D:
   serializedVersion: 4
@@ -251,3 +229,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1650561059063006317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8074538175837505485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 574e7b4064a1fb1489f807d96999506f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mass: 0
+  speed: 1
+  body: {fileID: 8074538175837505335}
+  animator: {fileID: 8074538175837505333}
+  attackPoint: {fileID: 8074538175314352567}
+  attackRange: 0.5
+  ennemyLayer:
+    serializedVersion: 2
+    m_Bits: 8388608
+  damage: 20

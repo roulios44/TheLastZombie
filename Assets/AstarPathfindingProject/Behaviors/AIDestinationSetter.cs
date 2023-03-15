@@ -21,7 +21,7 @@ namespace Pathfinding
         IAstarAI ai;
         void Start()
         {
-            target = GameObject.Find("zombie").transform;
+            target = GameObject.Find("Zombie").transform;
         }
         void OnEnable()
         {

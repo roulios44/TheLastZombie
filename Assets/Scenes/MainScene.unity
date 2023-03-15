@@ -17097,6 +17097,28 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 8074538176141766578}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1919068294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919068287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 574e7b4064a1fb1489f807d96999506f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mass: 0
+  speed: 1
+  body: {fileID: 0}
+  animator: {fileID: 0}
+  attackPoint: {fileID: 0}
+  attackRange: 0.5
+  ennemyLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  damage: 20
 --- !u!1 &1920850184
 GameObject:
   m_ObjectHideFlags: 0
@@ -18231,7 +18253,8 @@ PrefabInstance:
     - target: {fileID: 8074538175837505485, guid: 37f112aced5f9574d860d3b6512dd8aa,
         type: 3}
       propertyPath: m_Name
-      value: zombie
+      value: Zombie
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8074538175837505329, guid: 37f112aced5f9574d860d3b6512dd8aa, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 37f112aced5f9574d860d3b6512dd8aa, type: 3}

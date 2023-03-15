@@ -28,17 +28,17 @@ public class Zombie : MonoBehaviour
 
     void Update()
     {
-        if (goLeft) movement.x = -1;
-        else if (goRight) movement.x = 1;
-        else movement.x = 0;
-        if (goUp) movement.y = 1;
-        else if (goDown) movement.y = -1;
-        else movement.y = 0;
+        if (this.goLeft) this.movement.x = -1;
+        else if (this.goRight) this.movement.x = 1;
+        else this.movement.x = 0;
+        if (this.goUp) this.movement.y = 1;
+        else if (this.goDown) this.movement.y = -1;
+        else this.movement.y = 0;
 
-        animator.SetFloat("Horizontal",movement.x);
-        animator.SetFloat("Vertical",movement.y);
-        animator.SetFloat("Speed",movement.sqrMagnitude);
-        animator.SetFloat("LastDir",lastDir);
+        this.animator.SetFloat("Horizontal",movement.x);
+        this.animator.SetFloat("Vertical",movement.y);
+        this.animator.SetFloat("Speed",movement.sqrMagnitude);
+        this.animator.SetFloat("LastDir",lastDir);
     }
 
     void FixedUpdate()

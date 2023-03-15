@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.mainZombie = GameObject.Find("zombie");
+        this.mainZombie = GameObject.Find("Zombie");
         this.currentHP = maxHP;
     }
 
