@@ -8,7 +8,8 @@ public class ScoreManager : MonoBehaviour
 {
 
     public static ScoreManager instance;
-
+    public GameObject zombie;
+    private Zombie character;
     public Text scoreText;
     public Text highScoreText;
     public Text timerTxt;
@@ -17,8 +18,6 @@ public class ScoreManager : MonoBehaviour
     public Text purseText;
     int score = 0;
     int highScore = 0;
-    int totalMoney = 0;
-    private System.Random rand = new System.Random();
     private void Awake()
     {
         instance = this;
@@ -26,6 +25,7 @@ public class ScoreManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        this.character = zombie.GetComponent<Zombie>();
         this.highScore = PlayerPrefs.GetInt("highscore", 0);
         this.scoreText.text = score.ToString() + " POINTS";
         this.highScoreText.text = "HIGHSCORE: " + score.ToString();
@@ -37,13 +37,12 @@ public class ScoreManager : MonoBehaviour
     {
         this.currentTime += Time.deltaTime;
         this.updateTimer(currentTime);
+        this.purseText.text = "Purse: " + character.purse.ToString();
     }
 
     public void AddPoint()
     {
         this.score += 1;
-        this.totalMoney += rand.Next(1, 5);
-        this.purseText.text = "Purse: " + totalMoney.ToString();
         this.scoreText.text = score.ToString() + " POINTS";
         if (highScore < score) PlayerPrefs.SetInt("highscore", score);
     }

@@ -21,9 +21,12 @@ public class Zombie : MonoBehaviour
     public float attackRange = 0.5f;
     public LayerMask ennemyLayer;
     public int damage = 20;
+    public int purse;
+    private System.Random rand = new System.Random();
     void Start()
     {
         mass = body.mass;
+        purse = 0;
     }
 
     void Update()
@@ -97,6 +100,7 @@ public class Zombie : MonoBehaviour
                 enemyObject.TakeDamage(this.damage);
                 if (!enemyObject.IsAlive() && enemyObject.canBeHit)
                 {
+                    this.purse += rand.Next(1, 5);
                     ScoreManager.instance.AddPoint();
                     enemyObject.canBeHit = false;
                 }

@@ -4,16 +4,26 @@ using UnityEngine;
 
 public class Merchant : MonoBehaviour
 {
-    private bool show = false;
+    public GameObject shop;
     // Start is called before the first frame update
     void Start()
     {
-
+        shop.SetActive(false);
     }
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        GameObject otherObj = collider.gameObject;
-        Debug.Log("Triggered with: " + otherObj);
+        if (collider.gameObject.name == "Zombie")
+        {
+            shop.SetActive(true);
+        };
+    }
+
+    void OnTriggerExit2D(Collider2D collider)
+    {
+        if (collider.gameObject.name == "Zombie")
+        {
+            shop.SetActive(false);
+        }
     }
 }
