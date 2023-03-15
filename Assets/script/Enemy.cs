@@ -13,6 +13,8 @@ public class Enemy : MonoBehaviour
 
     private int dirZombie;
     int currentHP;
+
+    public int damage = 5;
     // Start is called before the first frame update
     void Start()
     {
@@ -51,5 +53,8 @@ public class Enemy : MonoBehaviour
         else if(diffX>0 && Math.Abs(diffX)>Math.Abs(diffY))this.dirZombie = 3;
         else if(diffY<0)this.dirZombie = 2;
         else if(diffY>0)this.dirZombie = 1;
+    }
+    public int GetCurrentHP(){
+        return this.currentHP;
     }
 }
