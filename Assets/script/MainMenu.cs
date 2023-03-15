@@ -32,14 +32,10 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("MainScene");
     }
     void OpenInstructions(){
-        Debug.Log("open instructions");
         this.instructions.SetActive(true);
-
     }
 
     void CloseInstructions(){
-        Debug.Log("close instructions");
         this.instructions.SetActive(false);
-
     }
 }

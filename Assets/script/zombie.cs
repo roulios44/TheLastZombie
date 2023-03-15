@@ -66,9 +66,7 @@ public class Zombie : MonoBehaviour
             this.DamageZombie();
         }
     }
-    /// <summary>
-    /// If the hero is on top of an enemy, the hero's health is reduced by 5 times the number of enemies
-    /// </summary>
+    
     void DamageZombie(){
         if(this.enemyOn>0){
             Debug.Log(this.enemyOn);

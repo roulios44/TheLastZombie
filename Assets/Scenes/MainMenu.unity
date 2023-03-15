@@ -1087,8 +1087,8 @@ MonoBehaviour:
     zombie \"alive\" on earth, your goal is to survive and defeat many humans as
     possible...\nFortunately, a mysterious trader is here to help you, but not for
     free...\n\n\nCommands : \n\nZ or up stick-> Go Up\nS or down stick-> Go Down\nQ
-    or left stick-> Go Left\nD or right sitck-> Go Right\nMouse Right Click or right
-    triger -> Attack\n\n"
+    or left stick-> Go Left\nD or right sitck-> Go Right\nSpacebar or right triger
+    -> Attack\n\n"
 --- !u!222 &1327654575
 CanvasRenderer:
   m_ObjectHideFlags: 0
