@@ -379,10 +379,10 @@
                 {
                     "name": "",
                     "id": "3af347ea-fb36-499e-9742-2bfa701a2bfc",
-                    "path": "",
+                    "path": "<Gamepad>/rightTrigger",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Joystick",
                     "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
