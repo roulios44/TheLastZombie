@@ -11,7 +11,7 @@ public class Zombie : MonoBehaviour
     public int purse;
     private System.Random rand = new System.Random();
     public bool isAlive = true;
-    private int enemyOn;
+    private int enemiesOn;
     private float timeElapsed = 0f;
     private bool goRight = false;
     private bool goLeft = false;
@@ -70,9 +70,8 @@ public class Zombie : MonoBehaviour
     }
     
     void DamageZombie(){
-        if(this.enemyOn>0){
-            Debug.Log(this.enemyOn);
-            this.currentHP-=5*this.enemyOn;
+        if(this.enemiesOn>0){
+            this.currentHP-=5*this.enemiesOn;
             Debug.Log("hero Hp:    "+ this.currentHP);
             if(this.currentHP<=0)this.Die();
         }
@@ -157,14 +156,14 @@ public class Zombie : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col){
         if(col.gameObject.GetComponent<Enemy>()!=null){
             Enemy enemy = col.gameObject.GetComponent<Enemy>();
-            this.enemyOn++;
+            this.enemiesOn++;
         }
     }
 
     void OnCollisionExit2D(Collision2D col){
         if(col.gameObject.GetComponent<Enemy>()!=null){
             Enemy enemy = col.gameObject.GetComponent<Enemy>();
-            this.enemyOn--;
+            this.enemiesOn--;
         }
     }
     void OnRestart()
