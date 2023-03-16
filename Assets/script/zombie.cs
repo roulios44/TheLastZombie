@@ -8,6 +8,7 @@ using System;
 
 public class Zombie : MonoBehaviour
 {
+    public bool isAlive = true;
     private int enemyOn;
     private float timeElapsed = 0f;
     private bool goRight = false;
@@ -154,6 +155,10 @@ public class Zombie : MonoBehaviour
         SceneManager.LoadScene("MainScene");
     }
     void Die(){
-        SceneManager.LoadScene("DieScene");
+        this.isAlive = false;
+    }
+
+    public bool IsAlive(){
+        return this.isAlive;
     }
 }

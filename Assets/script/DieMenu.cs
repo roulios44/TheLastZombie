@@ -7,11 +7,13 @@ public class DieMenu : MonoBehaviour
 {
     public Button buttonRestart;
     public Button mainMenu;
+    public Animator transition;
+    public float transitionTime = 1f;
     // Start is called before the first frame update
     void Start()
     {
-		buttonRestart.onClick.AddListener(RestartGame);
-		mainMenu.onClick.AddListener(GoMainMenu);
+		this.buttonRestart.onClick.AddListener(this.RestartGame);
+		this.mainMenu.onClick.AddListener(this.GoMainMenu);
     }
 
     // Update is called once per frame
@@ -21,6 +23,12 @@ public class DieMenu : MonoBehaviour
     }
 
     void RestartGame(){
+        transitionRrestartGame();
+    }
+
+    IEnumerator transitionRrestartGame(){
+        transition.SetTrigger("Start");
+        yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene("MainScene");
     }
 

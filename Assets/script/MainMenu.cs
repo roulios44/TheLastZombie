@@ -12,8 +12,9 @@ public class MainMenu : MonoBehaviour
     public Button closeInstructions;
     public GameObject instructions;
 
-    public 
     // Start is called before the first frame update
+    void Awake(){
+    }
     void Start()
     {
 		this.start.onClick.AddListener(this.GameStart);
