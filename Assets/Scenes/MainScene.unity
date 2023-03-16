@@ -1689,7 +1689,7 @@ GameObject:
   - component: {fileID: 90731642}
   - component: {fileID: 90731647}
   - component: {fileID: 90731645}
-  m_Layer: 7
+  m_Layer: 20
   m_Name: Merchant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1754,9 +1754,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingLayerID: -1869315837
+  m_SortingLayer: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 888129740, guid: ccd2a1d551a8145b3a646ac60125dd33, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -22774,6 +22774,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1282215243092142918, guid: f61be2b12760df9428c32b7145600353,
+        type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4580549707620087398, guid: f61be2b12760df9428c32b7145600353,
         type: 3}
       propertyPath: zombie
