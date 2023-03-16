@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8074538175314352567}
-  m_Layer: 6
+  m_Layer: 20
   m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,7 +51,7 @@ GameObject:
   - component: {fileID: 8074538175837505333}
   - component: {fileID: 8074538175837505338}
   - component: {fileID: 2386648863183663758}
-  m_Layer: 6
+  m_Layer: 20
   m_Name: zombie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -215,9 +215,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1000
+  m_SortingLayerID: -1869315837
+  m_SortingLayer: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 1470771364, guid: 42da9ebd3b9db42259cfb6eda63f18c0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -241,6 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 574e7b4064a1fb1489f807d96999506f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  purse: 0
   isAlive: 1
   mass: 0
   speed: 1

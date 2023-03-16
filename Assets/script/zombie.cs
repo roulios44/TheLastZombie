@@ -25,7 +25,6 @@ public class Zombie : MonoBehaviour
     public Animator animator;
     public Transform attackPoint;
     public float attackRange = 0.5f;
-    public LayerMask ennemyLayer;
     public int damage = 20;
     private int currentHP;
     public int maxHP=100;
@@ -123,16 +122,18 @@ public class Zombie : MonoBehaviour
         {
             StopMoving();
             animator.SetTrigger("Attack");
-            Collider2D[] hitEnnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, ennemyLayer);
+            Collider2D[] hitEnnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, LayerMask.GetMask(LayerMask.LayerToName(gameObject.layer)));
             foreach (Collider2D enemy in hitEnnemies)
             {
-                Enemy enemyObject = enemy.GetComponent<Enemy>();
-                enemyObject.TakeDamage(this.damage);
-                if (!enemyObject.IsAlive() && enemyObject.canBeHit)
-                {
-                    this.purse += rand.Next(1, 5);
-                    ScoreManager.instance.AddPoint();
-                    enemyObject.canBeHit = false;
+                if(enemy.GetComponent<Enemy>()!=null){
+                    Enemy enemyObject = enemy.GetComponent<Enemy>();
+                    enemyObject.TakeDamage(this.damage);
+                    if (!enemyObject.IsAlive() && enemyObject.canBeHit)
+                    {
+                        this.purse += rand.Next(1, 5);
+                        ScoreManager.instance.AddPoint();
+                        enemyObject.canBeHit = false;
+                    }
                 }
             }
         }
@@ -154,18 +155,16 @@ public class Zombie : MonoBehaviour
     
 
     void OnCollisionEnter2D(Collision2D col){
-        try{
+        if(col.gameObject.GetComponent<Enemy>()!=null){
             Enemy enemy = col.gameObject.GetComponent<Enemy>();
             this.enemyOn++;
-        }catch(Exception  e){
         }
     }
 
     void OnCollisionExit2D(Collision2D col){
-        try{
+        if(col.gameObject.GetComponent<Enemy>()!=null){
             Enemy enemy = col.gameObject.GetComponent<Enemy>();
             this.enemyOn--;
-        }catch(Exception  e){
         }
     }
     void OnRestart()

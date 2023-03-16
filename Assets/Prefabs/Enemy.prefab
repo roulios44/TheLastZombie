@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5284818911977304637}
   - component: {fileID: 2238759043398626679}
   - component: {fileID: 9069323796700565530}
-  m_Layer: 23
+  m_Layer: 20
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -166,7 +166,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 9069323796700565530}
-  mainZombie: {fileID: 0}
   maxHP: 100
   canBeHit: 1
   damage: 5
@@ -208,9 +207,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1869315837
+  m_SortingLayer: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: -897701920, guid: bdca5ca7bb2c0473e9b015c353c052db, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
