@@ -25,7 +25,6 @@ public class LevelLoader : MonoBehaviour
     }
 
     public IEnumerator LoadDeadScreen(){
-        Debug.Log("Hello form LoadDeadScreen");
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene("DieScene");
