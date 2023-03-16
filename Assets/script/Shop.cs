@@ -42,12 +42,18 @@ public class ShopManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+    }
+
+    void FixedUpdate()
+    {
         this.SpeedPriceText.text = this.SpeedPrice.ToString();
         this.HealthPriceText.text = this.HealthPrice.ToString();
         this.HealPriceText.text = HealPrice.ToString();
         this.StrengthPriceText.text = this.StrengthPrice.ToString();
         this.RangePriceText.text = this.RangePrice.ToString();
     }
+
     void StrengthPurchase()
     {
         if (this.character.purse >= this.StrengthPrice)
@@ -61,7 +67,7 @@ public class ShopManager : MonoBehaviour
     {
         if (this.character.purse >= this.HealthPrice)
         {
-            //this.character.maxHealth += 10;
+            this.character.maxHP += 10;
             this.character.purse -= this.HealthPrice;
             this.HealthPrice += 5;
         }
@@ -79,7 +85,7 @@ public class ShopManager : MonoBehaviour
     {
         if (this.character.purse >= this.HealPrice)
         {
-            // this.character."vie" = this.character.maxHealth;
+            this.character.currentHP = this.character.maxHP;
             this.character.purse -= this.HealPrice;
             this.HealPrice += this.basePrice * 2;
         }

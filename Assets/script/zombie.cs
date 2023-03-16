@@ -26,7 +26,7 @@ public class Zombie : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public int damage = 20;
-    private int currentHP;
+    public int currentHP;
     public int maxHP=100;
     void Start()
     {
