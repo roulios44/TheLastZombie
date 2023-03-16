@@ -220,7 +220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8755555670694074530}
-  - component: {fileID: 7077212423885878843}
+  - component: {fileID: 4580549707620087398}
   m_Layer: 0
   m_Name: LevelLoader
   m_TagString: Untagged
@@ -244,7 +244,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7077212423885878843
+--- !u!114 &4580549707620087398
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -256,5 +256,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baff3cf64d5626c47912273fff6fa996, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  zombie: {fileID: 0}
   transition: {fileID: 3001664683982749927}
   transitionTime: 1

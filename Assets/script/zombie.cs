@@ -8,6 +8,8 @@ using System;
 
 public class Zombie : MonoBehaviour
 {
+    public int purse;
+    private System.Random rand = new System.Random();
     public bool isAlive = true;
     private int enemyOn;
     private float timeElapsed = 0f;
@@ -76,46 +78,59 @@ public class Zombie : MonoBehaviour
             if(this.currentHP<=0)this.Die();
         }
     }
-    void OnRight(InputValue val){
-        if(val.Get<float>() == 0)goRight = false;
-        else {
+    void OnRight(InputValue val)
+    {
+        if (val.Get<float>() == 0) goRight = false;
+        else
+        {
             goRight = true;
             lastDir = 4;
         }
     }
-    
-    void OnLeft(InputValue val){
-        if(val.Get<float>() == 0)goLeft = false;
-        else {
+
+    void OnLeft(InputValue val)
+    {
+        if (val.Get<float>() == 0) goLeft = false;
+        else
+        {
             goLeft = true;
             lastDir = 3;
         }
     }
-    
-    void OnUp(InputValue val){
-        if(val.Get<float>() == 0)goUp = false;
-        else {
+
+    void OnUp(InputValue val)
+    {
+        if (val.Get<float>() == 0) goUp = false;
+        else
+        {
             goUp = true;
             lastDir = 2;
         }
     }
-    
-    void OnDown(InputValue val){
-        if(val.Get<float>() == 0)goDown = false;
-        else {
+
+    void OnDown(InputValue val)
+    {
+        if (val.Get<float>() == 0) goDown = false;
+        else
+        {
             goDown = true;
             lastDir = 1;
         }
     }
-    void OnAttack(InputValue val){
-        if(val.Get<float>()==1){
+    void OnAttack(InputValue val)
+    {
+        if (val.Get<float>() == 1)
+        {
             StopMoving();
             animator.SetTrigger("Attack");
-            Collider2D[] hitEnnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange,ennemyLayer);
-            foreach(Collider2D enemy in hitEnnemies){
+            Collider2D[] hitEnnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, ennemyLayer);
+            foreach (Collider2D enemy in hitEnnemies)
+            {
                 Enemy enemyObject = enemy.GetComponent<Enemy>();
                 enemyObject.TakeDamage(this.damage);
-                if(!enemyObject.IsAlive() && enemyObject.canBeHit){
+                if (!enemyObject.IsAlive() && enemyObject.canBeHit)
+                {
+                    this.purse += rand.Next(1, 5);
                     ScoreManager.instance.AddPoint();
                     enemyObject.canBeHit = false;
                 }
@@ -123,16 +138,18 @@ public class Zombie : MonoBehaviour
         }
     }
 
-    void StopMoving(){
+    void StopMoving()
+    {
         goDown = false;
         goLeft = false;
         goRight = false;
         goUp = false;
     }
 
-    void OnDrawGizmosSelected(){
-        if(attackPoint == null)return;
-        Gizmos.DrawWireSphere(attackPoint.position,attackRange);
+    void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null) return;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
     
 
@@ -151,7 +168,8 @@ public class Zombie : MonoBehaviour
         }catch(Exception  e){
         }
     }
-    void OnRestart(){
+    void OnRestart()
+    {
         SceneManager.LoadScene("MainScene");
     }
     void Die(){
