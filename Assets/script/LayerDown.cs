@@ -17,7 +17,10 @@ public class LayerDown : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        other.GetComponent<Renderer>().sortingLayerID = SortingLayer.NameToID("Layer 1");
+        Debug.Log(other.gameObject.tag);
+        if(other.gameObject.tag=="Player" || other.gameObject.tag =="Enemy"){
+            other.gameObject.layer = LayerMask.NameToLayer("Layer 1");
+        }
         for (int i = 0; i < Floor1Border.transform.childCount; i++)
         {
             GameObject child = Floor1Border.transform.GetChild(i).gameObject;
@@ -29,7 +32,6 @@ public class LayerDown : MonoBehaviour
             GameObject child = Floor2Border.transform.GetChild(i).gameObject;
             child.SetActive(false);
         }
-
     }
     // Update is called once per frame
     

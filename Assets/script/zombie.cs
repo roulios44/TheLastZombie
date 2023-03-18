@@ -129,6 +129,7 @@ public class Zombie : MonoBehaviour
                     enemyObject.TakeDamage(this.damage);
                     if (!enemyObject.IsAlive() && enemyObject.canBeHit)
                     {
+                        this.enemiesOn--;
                         this.purse += rand.Next(1, 5);
                         ScoreManager.instance.AddPoint();
                         enemyObject.canBeHit = false;
@@ -155,8 +156,10 @@ public class Zombie : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col){
         if(col.gameObject.GetComponent<Enemy>()!=null){
-            Enemy enemy = col.gameObject.GetComponent<Enemy>();
-            this.enemiesOn++;
+            if(col.gameObject.GetComponent<Enemy>().IsAlive()){
+                Enemy enemy = col.gameObject.GetComponent<Enemy>();
+                this.enemiesOn++;
+            }
         }
     }
 

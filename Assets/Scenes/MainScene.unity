@@ -1689,7 +1689,7 @@ GameObject:
   - component: {fileID: 90731642}
   - component: {fileID: 90731647}
   - component: {fileID: 90731645}
-  m_Layer: 20
+  m_Layer: 21
   m_Name: Merchant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1754,8 +1754,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1869315837
-  m_SortingLayer: 1
+  m_SortingLayerID: -44025399
+  m_SortingLayer: 2
   m_SortingOrder: 10
   m_Sprite: {fileID: 888129740, guid: ccd2a1d551a8145b3a646ac60125dd33, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -22635,6 +22635,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2386648863183663758, guid: 37f112aced5f9574d860d3b6512dd8aa,
+        type: 3}
+      propertyPath: speed
+      value: 4.26
+      objectReference: {fileID: 0}
     - target: {fileID: 8074538175314352567, guid: 37f112aced5f9574d860d3b6512dd8aa,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -22764,6 +22769,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Zombie
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074538175837505485, guid: 37f112aced5f9574d860d3b6512dd8aa,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37f112aced5f9574d860d3b6512dd8aa, type: 3}
