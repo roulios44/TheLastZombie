@@ -104,6 +104,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f53f3ca7328882d4e9480174d946539c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Floor1Border: {fileID: 0}
+  Floor2Border: {fileID: 0}
 --- !u!1 &9175106317843655149
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,3 +177,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad995adc623192b4a9709d298ce56dbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Floor1Border: {fileID: 0}
+  Floor2Border: {fileID: 0}
