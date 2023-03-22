@@ -23,6 +23,10 @@ public class ShopManager : MonoBehaviour
     private int basePrice = 15;
     public GameObject Zombie;
     private Zombie character;
+
+    void Awake(){
+        Debug.Log("start");
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -42,7 +46,7 @@ public class ShopManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("update");
     }
 
     void FixedUpdate()
@@ -63,6 +67,7 @@ public class ShopManager : MonoBehaviour
             this.StrengthPrice += 5;
         }
     }
+    
     void HealthPurchase()
     {
         if (this.character.purse >= this.HealthPrice)
@@ -72,6 +77,7 @@ public class ShopManager : MonoBehaviour
             this.HealthPrice += 5;
         }
     }
+
     void SpeedPurchase()
     {
         if (this.character.purse >= this.SpeedPrice)
@@ -81,6 +87,7 @@ public class ShopManager : MonoBehaviour
             this.SpeedPrice += 10;
         }
     }
+
     void HealPurchase()
     {
         if (this.character.purse >= this.HealPrice)
@@ -90,6 +97,7 @@ public class ShopManager : MonoBehaviour
             this.HealPrice += this.basePrice * 2;
         }
     }
+
     void RangePurchase()
     {
         if (this.character.purse >= this.RangePrice)
