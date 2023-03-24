@@ -16,6 +16,9 @@ public class ScoreManager : MonoBehaviour
 
     public float currentTime;
     public Text purseText;
+
+    public Text zombieLife;
+
     int score = 0;
     int highScore = 0;
     private void Awake()
@@ -29,7 +32,9 @@ public class ScoreManager : MonoBehaviour
         this.highScore = PlayerPrefs.GetInt("highscore", 0);
         this.scoreText.text = score.ToString() + " POINTS";
         this.highScoreText.text = "HIGHSCORE: " + score.ToString();
-        this.purseText.text = "Purse: ";
+        this.purseText.text = "Purse: " + character.purse.ToString();
+        this.zombieLife.text = "HP: " + character.currentHP.ToString() + " / " + character.maxHP.ToString();
+
     }
 
     // Update is called once per frame
@@ -38,6 +43,7 @@ public class ScoreManager : MonoBehaviour
         this.currentTime += Time.deltaTime;
         this.updateTimer(currentTime);
         this.purseText.text = "Purse: " + character.purse.ToString();
+        this.zombieLife.text = "HP: " + character.currentHP.ToString() + " / " + character.maxHP.ToString();
     }
 
     public void AddPoint()
