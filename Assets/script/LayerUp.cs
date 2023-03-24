@@ -15,6 +15,7 @@ public class LayerUp : MonoBehaviour
     {
         Debug.Log(other.gameObject.tag);
         if(other.gameObject.tag=="Player" || other.gameObject.tag =="Enemy"){
+            Debug.Log(other.gameObject.tag);
             other.gameObject.layer = LayerMask.NameToLayer("Layer 2");
         }
         other.GetComponent<Renderer>().sortingLayerID = SortingLayer.NameToID("Layer 2");

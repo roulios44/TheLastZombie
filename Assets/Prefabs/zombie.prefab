@@ -50,7 +50,7 @@ GameObject:
   - component: {fileID: 8074538175837505332}
   - component: {fileID: 8074538175837505333}
   - component: {fileID: 8074538175837505338}
-  - component: {fileID: 2386648863183663758}
+  - component: {fileID: 2361808750067587092}
   m_Layer: 20
   m_Name: zombie
   m_TagString: Untagged
@@ -229,7 +229,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2386648863183663758
+--- !u!114 &2361808750067587092
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -247,10 +247,8 @@ MonoBehaviour:
   speed: 1
   body: {fileID: 8074538175837505335}
   animator: {fileID: 8074538175837505333}
-  attackPoint: {fileID: 8074538175837505330}
+  attackPoint: {fileID: 8074538175314352567}
   attackRange: 0.5
-  ennemyLayer:
-    serializedVersion: 2
-    m_Bits: 8388608
   damage: 20
+  currentHP: 0
   maxHP: 100

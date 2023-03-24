@@ -43,8 +43,9 @@ public class Enemy : MonoBehaviour
 
     void Die(){
         this.isAlive = false;
+        float destryDelay = 10;
         GetComponent<Pathfinding.AIPath>().canMove = false;
-        Destroy(this.gameObject,10);
+        Destroy(this.gameObject,destryDelay);
     }
 
     void GetOrientationPlayer(){
