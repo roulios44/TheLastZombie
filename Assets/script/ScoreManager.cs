@@ -13,7 +13,6 @@ public class ScoreManager : MonoBehaviour
     public Text scoreText;
     public Text highScoreText;
     public Text timerTxt;
-
     public float currentTime;
     public Text purseText;
     int score = 0;

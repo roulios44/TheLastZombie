@@ -2,17 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
     public Animator animator;
-    public GameObject mainZombie;
+    private GameObject mainZombie;
     private bool isAlive = true;
     public int maxHP = 100;
     public bool canBeHit = true;
 
     private int dirZombie;
     int currentHP;
+
+    public int damage = 5;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,8 +43,9 @@ public class Enemy : MonoBehaviour
 
     void Die(){
         this.isAlive = false;
+        float destryDelay = 10;
         GetComponent<Pathfinding.AIPath>().canMove = false;
-        Destroy(this.gameObject,10);
+        Destroy(this.gameObject,destryDelay);
     }
 
     void GetOrientationPlayer(){
@@ -51,5 +55,8 @@ public class Enemy : MonoBehaviour
         else if(diffX>0 && Math.Abs(diffX)>Math.Abs(diffY))this.dirZombie = 3;
         else if(diffY<0)this.dirZombie = 2;
         else if(diffY>0)this.dirZombie = 1;
+    }
+    public int GetCurrentHP(){
+        return this.currentHP;
     }
 }

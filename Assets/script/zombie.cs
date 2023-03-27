@@ -3,10 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using System;
 
 
 public class Zombie : MonoBehaviour
 {
+    public int purse;
+    private System.Random rand = new System.Random();
+    public bool isAlive = true;
+    private int enemiesOn;
+    private float timeElapsed = 0f;
     private bool goRight = false;
     private bool goLeft = false;
     private bool goUp = false;
@@ -14,39 +20,61 @@ public class Zombie : MonoBehaviour
     public float mass;
     public float speed = 1f;
     public Rigidbody2D body;
-    Vector2 movement;
+    private Vector2 movement;
     private float lastDir;
     public Animator animator;
     public Transform attackPoint;
     public float attackRange = 0.5f;
-    public LayerMask ennemyLayer;
     public int damage = 20;
-    public int purse;
-    private System.Random rand = new System.Random();
+    public int currentHP;
+    public int maxHP=100;
     void Start()
     {
-        mass = body.mass;
-        purse = 0;
+        this.mass = this.body.mass;
+        this.currentHP = this.maxHP;
     }
 
     void Update()
     {
+        this.WalkDirection();
+        this.SetAnimator();
+    }
+
+    void FixedUpdate()
+    {
+        this.body.MovePosition(this.body.position + this.movement * this.speed * Time.fixedDeltaTime);
+        this.DoEverySeconds();
+    }
+
+    void WalkDirection(){
         if (this.goLeft) this.movement.x = -1;
         else if (this.goRight) this.movement.x = 1;
         else this.movement.x = 0;
         if (this.goUp) this.movement.y = 1;
         else if (this.goDown) this.movement.y = -1;
         else this.movement.y = 0;
-
-        this.animator.SetFloat("Horizontal", movement.x);
-        this.animator.SetFloat("Vertical", movement.y);
-        this.animator.SetFloat("Speed", movement.sqrMagnitude);
-        this.animator.SetFloat("LastDir", lastDir);
+    }
+    void SetAnimator(){
+        this.animator.SetFloat("Horizontal",movement.x);
+        this.animator.SetFloat("Vertical",movement.y);
+        this.animator.SetFloat("Speed",movement.sqrMagnitude);
+        this.animator.SetFloat("LastDir",lastDir);
     }
 
-    void FixedUpdate()
-    {
-        body.MovePosition(body.position + movement * speed * Time.fixedDeltaTime);
+    void DoEverySeconds(){
+        this.timeElapsed += Time.fixedDeltaTime;
+        if(this.timeElapsed>=1f){
+            this.timeElapsed %= 1f;
+            this.DamageZombie();
+        }
+    }
+    
+    void DamageZombie(){
+        if(this.enemiesOn>0){
+            this.currentHP-=5*this.enemiesOn;
+            Debug.Log("hero Hp:    "+ this.currentHP);
+            if(this.currentHP<=0)this.Die();
+        }
     }
     void OnRight(InputValue val)
     {
@@ -93,16 +121,19 @@ public class Zombie : MonoBehaviour
         {
             StopMoving();
             animator.SetTrigger("Attack");
-            Collider2D[] hitEnnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, ennemyLayer);
+            Collider2D[] hitEnnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, LayerMask.GetMask(LayerMask.LayerToName(gameObject.layer)));
             foreach (Collider2D enemy in hitEnnemies)
             {
-                Enemy enemyObject = enemy.GetComponent<Enemy>();
-                enemyObject.TakeDamage(this.damage);
-                if (!enemyObject.IsAlive() && enemyObject.canBeHit)
-                {
-                    this.purse += rand.Next(1, 5);
-                    ScoreManager.instance.AddPoint();
-                    enemyObject.canBeHit = false;
+                if(enemy.GetComponent<Enemy>()!=null){
+                    Enemy enemyObject = enemy.GetComponent<Enemy>();
+                    enemyObject.TakeDamage(this.damage);
+                    if (!enemyObject.IsAlive() && enemyObject.canBeHit)
+                    {
+                        this.enemiesOn--;
+                        this.purse += rand.Next(1, 5);
+                        ScoreManager.instance.AddPoint();
+                        enemyObject.canBeHit = false;
+                    }
                 }
             }
         }
@@ -121,13 +152,32 @@ public class Zombie : MonoBehaviour
         if (attackPoint == null) return;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
+    
 
-    void OnCollisionEnter(Collision collisionInfo)
-    {
-        Debug.Log(collisionInfo);
+    void OnCollisionEnter2D(Collision2D col){
+        if(col.gameObject.GetComponent<Enemy>()!=null){
+            if(col.gameObject.GetComponent<Enemy>().IsAlive()){
+                Enemy enemy = col.gameObject.GetComponent<Enemy>();
+                this.enemiesOn++;
+            }
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D col){
+        if(col.gameObject.GetComponent<Enemy>()!=null){
+            Enemy enemy = col.gameObject.GetComponent<Enemy>();
+            this.enemiesOn--;
+        }
     }
     void OnRestart()
     {
         SceneManager.LoadScene("MainScene");
+    }
+    void Die(){
+        this.isAlive = false;
+    }
+
+    public bool IsAlive(){
+        return this.isAlive;
     }
 }
