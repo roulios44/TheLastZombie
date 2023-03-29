@@ -9,9 +9,14 @@ public class MainMenu : MonoBehaviour
 {
 
     public Button start;
+
     public Button howToPlay;
     public Button closeInstructions;
     public GameObject instructions;
+
+    public GameObject credits;
+    public Button closeCredits;
+    public Button openCredits;
 
     private LevelLoader levelLoader;
 
@@ -24,6 +29,9 @@ public class MainMenu : MonoBehaviour
         this.howToPlay.onClick.AddListener(this.OpenInstructions);
         this.closeInstructions.onClick.AddListener(this.CloseInstructions);
         this.instructions.SetActive(false);
+        this.credits.SetActive(false);
+        this.openCredits.onClick.AddListener(this.OpenCredits);
+        this.closeCredits.onClick.AddListener(this.CloseCredits);
         try{
             levelLoader = GameObject.Find("LevelLoader").GetComponent<LevelLoader>();
         }catch(Exception){
@@ -48,5 +56,15 @@ public class MainMenu : MonoBehaviour
 
     void CloseInstructions(){
         this.instructions.SetActive(false);
+    }
+
+    void CloseCredits(){
+        this.credits.SetActive(false);
+        this.openCredits.gameObject.SetActive(true);
+    }
+
+    void OpenCredits(){
+        this.credits.SetActive(true);
+        this.openCredits.gameObject.SetActive(false);
     }
 }
