@@ -130,7 +130,6 @@ public class Zombie : MonoBehaviour
                     enemyObject.TakeDamage(this.damage);
                     if (!enemyObject.IsAlive() && enemyObject.canBeHit)
                     {
-                        this.enemiesOn--;
                         this.purse += rand.Next(1, 5);
                         ScoreManager.instance.AddPoint();
                         enemyObject.canBeHit = false;
