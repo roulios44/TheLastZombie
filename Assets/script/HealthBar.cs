@@ -6,7 +6,10 @@ using UnityEngine.UI;
 public class HealthBar : MonoBehaviour
 {
     public GameObject Zombie;
+    public GameObject Enemy;
     private Zombie character;
+    private Enemy enemyCharacter;
+    public bool IsEnemy = false;
     private int MaxHP;
     private int HP;
     [SerializeField]
@@ -19,8 +22,13 @@ public class HealthBar : MonoBehaviour
 
     private void Start() {
         _fullWidth = _topBar.rect.width;
-        this.character = Zombie.GetComponent<Zombie>();
-        this.MaxHP = this.character.maxHP;
+        if (!this.IsEnemy) {
+            this.character = Zombie.GetComponent<Zombie>();
+            this.MaxHP = this.character.maxHP;
+        } else {
+            this.enemyCharacter = Enemy.GetComponent<Enemy>();
+            this.MaxHP = this.enemyCharacter.maxHP;
+        }
     }
     public void Change(int amount) {
         HP = Mathf.Clamp(HP + amount, 0, MaxHP);
@@ -31,8 +39,13 @@ public class HealthBar : MonoBehaviour
     }
 
     private void Update() {
-        this.HP = this.character.currentHP;
-        Change(this.character.currentHP/this.character.maxHP);
+        if (!IsEnemy) {
+            this.HP = this.character.currentHP;
+            Change(this.character.currentHP/this.character.maxHP);
+        } else {
+            this.HP = this.enemyCharacter.currentHP;
+            Change(this.enemyCharacter.currentHP/this.enemyCharacter.maxHP);
+        }
         // if (Input.GetMouseButtonDown(0)) {
         //     Change(20);
         // }

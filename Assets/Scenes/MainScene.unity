@@ -10467,6 +10467,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Zombie: {fileID: 1919068287}
+  Enemy: {fileID: 0}
+  IsEnemy: 0
   _topBar: {fileID: 1470624302}
   _bottomBar: {fileID: 154627120}
 --- !u!114 &1349597617
@@ -14902,7 +14904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7075472, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.060356647, g: 0.7058824, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -22348,7 +22350,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Health
+  m_Text: Heal
 --- !u!222 &1944614027
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23216,6 +23218,11 @@ PrefabInstance:
       propertyPath: mainZombie
       value: 
       objectReference: {fileID: 1919068287}
+    - target: {fileID: 5631455592759926457, guid: fe1acb095fca7431eb6ceb736d78dff8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6854537931508723547, guid: fe1acb095fca7431eb6ceb736d78dff8,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -23235,6 +23242,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2361808750067587092, guid: 37f112aced5f9574d860d3b6512dd8aa,
+        type: 3}
+      propertyPath: purse
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 2386648863183663758, guid: 37f112aced5f9574d860d3b6512dd8aa,
         type: 3}
       propertyPath: speed

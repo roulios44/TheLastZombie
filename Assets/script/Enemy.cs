@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour
     public bool canBeHit = true;
 
     private int dirZombie;
-    int currentHP;
+    public int currentHP;
 
     public int damage = 5;
     // Start is called before the first frame update
