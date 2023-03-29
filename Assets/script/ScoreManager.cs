@@ -7,6 +7,8 @@ using System;
 public class ScoreManager : MonoBehaviour
 {
 
+    public static int sessionScore;
+    public static float sessionTime;
     public static ScoreManager instance;
     public GameObject zombie;
     private Zombie character;
@@ -40,19 +42,21 @@ public class ScoreManager : MonoBehaviour
     void Update()
     {
         this.currentTime += Time.deltaTime;
-        this.updateTimer(currentTime);
-        this.purseText.text = "Purse: " + character.purse.ToString();
-        this.zombieLife.text = "HP: " + character.currentHP.ToString() + " / " + character.maxHP.ToString();
+        this.UpdateTimer(this.currentTime);
+        this.purseText.text = "Purse: " + this.character.purse.ToString();
+        this.zombieLife.text = "HP: " + this.character.currentHP.ToString() + " / " + character.maxHP.ToString();
+        sessionScore = this.score;
+        sessionTime = this.currentTime;
     }
 
     public void AddPoint()
     {
         this.score += 1;
-        this.scoreText.text = score.ToString() + " POINTS";
+        this.scoreText.text = this.score.ToString() + " POINTS";
         if (highScore < score) PlayerPrefs.SetInt("highscore", score);
     }
 
-    void updateTimer(float time)
+    void UpdateTimer(float time)
     {
         float minutes = Mathf.FloorToInt(time / 60);
         float secondes = Mathf.FloorToInt(time % 60);

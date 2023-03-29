@@ -4590,7 +4590,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.29, y: -2.34, z: -10}
+  m_LocalPosition: {x: -19.24, y: -5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6407,7 +6407,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 891016664}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.29, y: -2.34, z: -10}
+  m_LocalPosition: {x: -19.24, y: -5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10978,7 +10978,7 @@ GameObject:
   - component: {fileID: 1349597618}
   - component: {fileID: 1349597617}
   - component: {fileID: 1349597616}
-  m_Layer: 5
+  m_Layer: 20
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24404,7 +24404,7 @@ PrefabInstance:
     - target: {fileID: 5631455592759926457, guid: fe1acb095fca7431eb6ceb736d78dff8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6854537931508723547, guid: fe1acb095fca7431eb6ceb736d78dff8,
         type: 3}
@@ -24439,6 +24439,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 4.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074538175314352566, guid: 37f112aced5f9574d860d3b6512dd8aa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8074538175314352567, guid: 37f112aced5f9574d860d3b6512dd8aa,
         type: 3}
@@ -24538,12 +24543,12 @@ PrefabInstance:
     - target: {fileID: 8074538175837505330, guid: 37f112aced5f9574d860d3b6512dd8aa,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -3.29
+      value: -19.24
       objectReference: {fileID: 0}
     - target: {fileID: 8074538175837505330, guid: 37f112aced5f9574d860d3b6512dd8aa,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -2.34
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 8074538175837505330, guid: 37f112aced5f9574d860d3b6512dd8aa,
         type: 3}
@@ -24565,10 +24570,25 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8074538175837505338, guid: 37f112aced5f9574d860d3b6512dd8aa,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074538175837505338, guid: 37f112aced5f9574d860d3b6512dd8aa,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1869315837
+      objectReference: {fileID: 0}
     - target: {fileID: 8074538175837505485, guid: 37f112aced5f9574d860d3b6512dd8aa,
         type: 3}
       propertyPath: m_Name
       value: Zombie
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074538175837505485, guid: 37f112aced5f9574d860d3b6512dd8aa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8074538175837505485, guid: 37f112aced5f9574d860d3b6512dd8aa,
         type: 3}

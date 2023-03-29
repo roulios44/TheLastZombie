@@ -39,6 +39,7 @@ public class Zombie : MonoBehaviour
     {
         this.WalkDirection();
         this.SetAnimator();
+        if(this.currentHP<=0)this.isAlive = false;
     }
 
     void FixedUpdate()
@@ -169,11 +170,6 @@ public class Zombie : MonoBehaviour
             this.enemiesOn--;
         }
     }
-    void OnRestart()
-    {
-        SceneManager.LoadScene("MainScene");
-    }
-
     void OnPause(){
         this.menuObject.SetActive(true);
         Time.timeScale = 0;

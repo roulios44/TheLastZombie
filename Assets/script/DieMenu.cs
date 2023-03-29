@@ -6,17 +6,25 @@ using UnityEngine.SceneManagement;
 using System;
 public class DieMenu : MonoBehaviour
 {
+    private int score;
+    private float time;
     public Button buttonRestart;
     public Button mainMenu;
     public Animator transition;
     public float transitionTime = 1f;
+    public Text textScore;
+    public Text textTime;
 
     private LevelLoader levelLoader;
     // Start is called before the first frame update
     void Start()
     {
+        this.score = ScoreManager.sessionScore;
+        this.time = ScoreManager.sessionTime;
         this.buttonRestart.onClick.AddListener(this.RestartGame);
         this.mainMenu.onClick.AddListener(this.GoMainMenu);
+        this.textTime.text = string.Format("You survived {0:00} secondes",  this.time);
+        this.textScore.text = "You have kill "+this.score.ToString()+" humans";
 
         try
         {
