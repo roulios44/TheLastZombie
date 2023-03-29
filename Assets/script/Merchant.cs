@@ -11,19 +11,19 @@ public class Merchant : MonoBehaviour
     void Start()
     {
         this.CloseButton.onClick.AddListener(this.CloseShop);
-        // shop.SetActive(false);
+        shop.SetActive(false);
     }
 
     void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.gameObject.name == "Zombie")
         {
-            shop.SetActive(true);
-            // Time.timeScale = 0;
+            this.shop.SetActive(true);
+            Time.timeScale = 0;
         };
     }
     void CloseShop(){
-        // Time.timeScale = 1;
+        Time.timeScale = 1;
         shop.SetActive(false);
     }
 }

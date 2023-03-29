@@ -8,6 +8,7 @@ using System;
 
 public class Zombie : MonoBehaviour
 {
+    public GameObject menuObject;
     public int purse;
     private System.Random rand = new System.Random();
     public bool isAlive = true;
@@ -72,7 +73,6 @@ public class Zombie : MonoBehaviour
     void DamageZombie(){
         if(this.enemiesOn>0){
             this.currentHP-=5*this.enemiesOn;
-            Debug.Log("hero Hp:    "+ this.currentHP);
             if(this.currentHP<=0)this.Die();
         }
     }
@@ -172,6 +172,11 @@ public class Zombie : MonoBehaviour
     void OnRestart()
     {
         SceneManager.LoadScene("MainScene");
+    }
+
+    void OnPause(){
+        this.menuObject.SetActive(true);
+        Time.timeScale = 0;
     }
     void Die(){
         this.isAlive = false;

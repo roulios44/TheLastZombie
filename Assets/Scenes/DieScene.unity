@@ -321,6 +321,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonRestart: {fileID: 750949612}
   mainMenu: {fileID: 1698659928}
+  transition: {fileID: 0}
+  transitionTime: 1
 --- !u!1 &210601090
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,7 +548,7 @@ PrefabInstance:
     - target: {fileID: 8755555670694074541, guid: f61be2b12760df9428c32b7145600353,
         type: 3}
       propertyPath: m_Name
-      value: LevelLoader (2)
+      value: LevelLoader
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f61be2b12760df9428c32b7145600353, type: 3}

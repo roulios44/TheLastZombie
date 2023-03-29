@@ -3,17 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
 public class DieMenu : MonoBehaviour
 {
     public Button buttonRestart;
     public Button mainMenu;
     public Animator transition;
     public float transitionTime = 1f;
+
+    private LevelLoader levelLoader;
     // Start is called before the first frame update
     void Start()
     {
 		this.buttonRestart.onClick.AddListener(this.RestartGame);
 		this.mainMenu.onClick.AddListener(this.GoMainMenu);
+
+        try{
+            levelLoader = GameObject.Find("LevelLoader").GetComponent<LevelLoader>();
+        }catch(Exception e){
+            levelLoader = null;
+            Debug.Log("levelLoader not found");
+        }
     }
 
     // Update is called once per frame
@@ -23,16 +33,10 @@ public class DieMenu : MonoBehaviour
     }
 
     void RestartGame(){
-        transitionRrestartGame();
-    }
-
-    IEnumerator transitionRrestartGame(){
-        transition.SetTrigger("Start");
-        yield return new WaitForSeconds(transitionTime);
-        SceneManager.LoadScene("MainScene");
+        levelLoader.StartGame();
     }
 
     void GoMainMenu(){
-        SceneManager.LoadScene("MainMenu");
+        levelLoader.ToMainMenu();
     }
 }

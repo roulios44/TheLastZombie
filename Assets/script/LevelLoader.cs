@@ -24,17 +24,36 @@ public class LevelLoader : MonoBehaviour
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex+1));
     }
 
-    public IEnumerator LoadDeadScreen(){
-        transition.SetTrigger("Start");
-        yield return new WaitForSeconds(transitionTime);
-        SceneManager.LoadScene("DieScene");
+    public void ToMainMenu(){
+        Time.timeScale =1;
+        StartCoroutine(this.LoadLevel(0));
     }
 
-    IEnumerator LoadLevel(int levelIndex){
+    public void StartGame(){
+        StartCoroutine(this.LoadLevel(1));
+    }
+
+    public IEnumerator LoadDeadScreen(){
         transition.SetTrigger("Start");
 
-        yield return new WaitForSeconds(transitionTime);
+        yield return new WaitForSecondsRealtime(transitionTime);
 
-        SceneManager.LoadScene(levelIndex);
+        SceneManager.LoadSceneAsync("DieScene");
+    }
+
+    public IEnumerator LoadLevel(int levelIndex){
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSecondsRealtime(transitionTime);
+
+        SceneManager.LoadSceneAsync(levelIndex);
+    }
+
+    IEnumerator LoadMainMenu(){
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSecondsRealtime(transitionTime);
+
+        SceneManager.LoadSceneAsync("MainMenu");
     }
 }
