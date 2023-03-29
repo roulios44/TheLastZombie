@@ -15,28 +15,32 @@ public class DieMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-		this.buttonRestart.onClick.AddListener(this.RestartGame);
-		this.mainMenu.onClick.AddListener(this.GoMainMenu);
+        this.buttonRestart.onClick.AddListener(this.RestartGame);
+        this.mainMenu.onClick.AddListener(this.GoMainMenu);
 
-        try{
+        try
+        {
             levelLoader = GameObject.Find("LevelLoader").GetComponent<LevelLoader>();
-        }catch(Exception e){
+        }
+        catch (Exception e)
+        {
             levelLoader = null;
-            Debug.Log("levelLoader not found");
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    void RestartGame(){
+    void RestartGame()
+    {
         levelLoader.StartGame();
     }
 
-    void GoMainMenu(){
+    void GoMainMenu()
+    {
         levelLoader.ToMainMenu();
     }
 }

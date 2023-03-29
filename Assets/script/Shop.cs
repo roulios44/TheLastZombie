@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ShopManager : MonoBehaviour
+public class Shop : MonoBehaviour
 {
     public Button StrengthButton;
     public Text StrengthPriceText;
@@ -23,10 +23,8 @@ public class ShopManager : MonoBehaviour
     private int basePrice = 15;
     public GameObject Zombie;
     private Zombie character;
+    public Text MoneyAmmount;
 
-    void Awake(){
-        Debug.Log("start");
-    }
     // Start is called before the first frame update
     void Start()
     {
@@ -40,22 +38,23 @@ public class ShopManager : MonoBehaviour
         this.HealButton.onClick.AddListener(HealPurchase);
         this.HealthButton.onClick.AddListener(HealthPurchase);
         this.SpeedButton.onClick.AddListener(SpeedPurchase);
-        this.RangeButton.onClick.AddListener(RangePurchase);
+        this.RangeButton.onClick.AddListener(RangePurchase); 
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("update");
+        
     }
 
     void FixedUpdate()
     {
         this.SpeedPriceText.text = this.SpeedPrice.ToString();
         this.HealthPriceText.text = this.HealthPrice.ToString();
-        this.HealPriceText.text = HealPrice.ToString();
         this.StrengthPriceText.text = this.StrengthPrice.ToString();
         this.RangePriceText.text = this.RangePrice.ToString();
+        this.HealPriceText.text = this.HealPrice.ToString();
+        this.MoneyAmmount.text = "Purse : " + this.character.purse.ToString();
     }
 
     void StrengthPurchase()

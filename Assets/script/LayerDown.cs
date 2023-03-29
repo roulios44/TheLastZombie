@@ -17,7 +17,6 @@ public class LayerDown : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log(other.gameObject.tag);
         if(other.gameObject.tag=="Player" || other.gameObject.tag =="Enemy"){
             other.gameObject.layer = LayerMask.NameToLayer("Layer 1");
         }

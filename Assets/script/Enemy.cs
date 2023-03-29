@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour
     public bool canBeHit = true;
 
     private int dirZombie;
-    int currentHP;
+    public int currentHP;
 
     public int damage = 5;
     // Start is called before the first frame update
@@ -38,7 +38,6 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(int damage){
         this.currentHP-=damage;
         if(this.currentHP<=0)Die();
-        else Debug.Log("enemy is at " + this.currentHP + " HP");
     }
 
     void Die(){
