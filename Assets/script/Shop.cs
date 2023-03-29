@@ -44,11 +44,6 @@ public class Shop : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    void FixedUpdate()
-    {
         this.SpeedPriceText.text = this.SpeedPrice.ToString();
         this.HealthPriceText.text = this.HealthPrice.ToString();
         this.StrengthPriceText.text = this.StrengthPrice.ToString();
