@@ -46,7 +46,6 @@ public class Zombie : MonoBehaviour
     {
         this.body.MovePosition(this.body.position + this.movement * this.speed * Time.fixedDeltaTime);
         this.DoEverySeconds();
-        Debug.Log(this.enemiesOn);
     }
 
     void WalkDirection(){
