@@ -46,6 +46,7 @@ public class Zombie : MonoBehaviour
     {
         this.body.MovePosition(this.body.position + this.movement * this.speed * Time.fixedDeltaTime);
         this.DoEverySeconds();
+        Debug.Log(this.enemiesOn);
     }
 
     void WalkDirection(){
@@ -128,11 +129,10 @@ public class Zombie : MonoBehaviour
                 if(enemy.GetComponent<Enemy>()!=null){
                     Enemy enemyObject = enemy.GetComponent<Enemy>();
                     enemyObject.TakeDamage(this.damage);
-                    if (!enemyObject.IsAlive() && enemyObject.canBeHit)
+                    if (!enemyObject.IsAlive())
                     {
                         this.purse += rand.Next(1, 5);
                         ScoreManager.instance.AddPoint();
-                        enemyObject.canBeHit = false;
                     }
                 }
             }
@@ -156,8 +156,8 @@ public class Zombie : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col){
         if(col.gameObject.GetComponent<Enemy>()!=null){
-            if(col.gameObject.GetComponent<Enemy>().IsAlive()){
-                Enemy enemy = col.gameObject.GetComponent<Enemy>();
+            Enemy enemy = col.gameObject.GetComponent<Enemy>();
+            if(enemy.IsAlive()){
                 this.enemiesOn++;
             }
         }
@@ -166,7 +166,17 @@ public class Zombie : MonoBehaviour
     void OnCollisionExit2D(Collision2D col){
         if(col.gameObject.GetComponent<Enemy>()!=null){
             Enemy enemy = col.gameObject.GetComponent<Enemy>();
-            this.enemiesOn--;
+            if(enemy.IsAlive())this.enemiesOn--;
+        }
+    }
+
+    void OnCollisionStay2D(Collision2D col){
+        if(col.gameObject.GetComponent<Enemy>()!=null){
+            Enemy enemy = col.gameObject.GetComponent<Enemy>();
+            if(!enemy.IsAlive() && enemy.GetTmpDead()){
+                this.enemiesOn--;
+                enemy.SetTmpDeadFalse();
+            }
         }
     }
     void OnPause(){

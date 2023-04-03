@@ -6,12 +6,11 @@ using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
-    public Animator animator;
+        public Animator animator;
     private GameObject mainZombie;
     private bool isAlive = true;
     public int maxHP = 100;
-    public bool canBeHit = true;
-
+    private bool tmpDead = true;
     private int dirZombie;
     public int currentHP;
 
@@ -42,7 +41,7 @@ public class Enemy : MonoBehaviour
 
     void Die(){
         this.isAlive = false;
-        float destryDelay = 10;
+        float destryDelay = new System.Random().Next(5,10);
         GetComponent<Pathfinding.AIPath>().canMove = false;
         Destroy(this.gameObject,destryDelay);
     }
@@ -57,5 +56,12 @@ public class Enemy : MonoBehaviour
     }
     public int GetCurrentHP(){
         return this.currentHP;
+    }
+    public bool GetTmpDead(){
+        return this.tmpDead;
+    }
+
+    public void SetTmpDeadFalse(){
+        this.tmpDead = false;
     }
 }
