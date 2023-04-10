@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
-        public Animator animator;
+    public Animator animator;
     private GameObject mainZombie;
     private bool isAlive = true;
     public int maxHP = 100;
@@ -43,6 +43,8 @@ public class Enemy : MonoBehaviour
         this.isAlive = false;
         float destryDelay = new System.Random().Next(5,10);
         GetComponent<Pathfinding.AIPath>().canMove = false;
+        GetComponent<BoxCollider2D>().enabled = false;
+        this.mainZombie.GetComponent<Zombie>().enemiesOn--;
         Destroy(this.gameObject,destryDelay);
     }
 

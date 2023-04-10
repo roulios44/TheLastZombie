@@ -12,7 +12,7 @@ public class Zombie : MonoBehaviour
     public int purse;
     private System.Random rand = new System.Random();
     public bool isAlive = true;
-    private int enemiesOn;
+    public int enemiesOn;
     private float timeElapsed = 0f;
     private bool goRight = false;
     private bool goLeft = false;
