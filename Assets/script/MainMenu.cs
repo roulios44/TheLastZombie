@@ -4,20 +4,19 @@ using UnityEngine;
 using System;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEditor;
 
 public class MainMenu : MonoBehaviour
 {
 
     public Button start;
-
+    public Button leaveGame;
     public Button howToPlay;
     public Button closeInstructions;
     public GameObject instructions;
-
     public GameObject credits;
     public Button closeCredits;
     public Button openCredits;
-
     private LevelLoader levelLoader;
 
     // Start is called before the first frame update
@@ -25,6 +24,13 @@ public class MainMenu : MonoBehaviour
     }
     void Start()
     {
+
+        #if !UNITY_WEBGL
+        this.leaveGame.onClick.AddListener(this.AppliQuit);
+        #else
+        this.leaveGame.gameObject.SetActive(false);
+        #endif
+
 		this.start.onClick.AddListener(this.GameStart);
         this.howToPlay.onClick.AddListener(this.OpenInstructions);
         this.closeInstructions.onClick.AddListener(this.CloseInstructions);
@@ -66,5 +72,10 @@ public class MainMenu : MonoBehaviour
     void OpenCredits(){
         this.credits.SetActive(true);
         this.openCredits.gameObject.SetActive(false);
+    }
+
+    void AppliQuit(){
+        UnityEditor.EditorApplication.isPlaying = false;
+        Application.Quit();
     }
 }
