@@ -5,6 +5,7 @@ using System;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEditor;
+using UnityEngine.EventSystems;
 
 public class MainMenu : MonoBehaviour
 {
@@ -18,6 +19,9 @@ public class MainMenu : MonoBehaviour
     public Button closeCredits;
     public Button openCredits;
     private LevelLoader levelLoader;
+    public EventSystem eventSys;
+
+    
 
     // Start is called before the first frame update
     void Awake(){
@@ -43,13 +47,16 @@ public class MainMenu : MonoBehaviour
         }catch(Exception){
             levelLoader = null;
         }
+
+        eventSys.SetSelectedGameObject(this.start.gameObject);
+
         
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
     void GameStart(){
         if(this.levelLoader!=null){
@@ -58,19 +65,34 @@ public class MainMenu : MonoBehaviour
     }
     void OpenInstructions(){
         this.instructions.SetActive(true);
+        this.start.gameObject.SetActive(false);
+        this.howToPlay.gameObject.SetActive(false);
+        this.openCredits.gameObject.SetActive(false);
+        eventSys.SetSelectedGameObject(this.closeInstructions.gameObject);
+
     }
 
     void CloseInstructions(){
         this.instructions.SetActive(false);
+        this.start.gameObject.SetActive(true);
+        this.howToPlay.gameObject.SetActive(true);
+        this.openCredits.gameObject.SetActive(true);
+        eventSys.SetSelectedGameObject(this.start.gameObject);
     }
 
     void CloseCredits(){
         this.credits.SetActive(false);
         this.openCredits.gameObject.SetActive(true);
+        this.start.gameObject.SetActive(true);
+        this.howToPlay.gameObject.SetActive(true);
+        eventSys.SetSelectedGameObject(this.start.gameObject);
     }
 
     void OpenCredits(){
         this.credits.SetActive(true);
+        eventSys.SetSelectedGameObject(this.closeCredits.gameObject);
+        this.start.gameObject.SetActive(false);
+        this.howToPlay.gameObject.SetActive(false);
         this.openCredits.gameObject.SetActive(false);
     }
 

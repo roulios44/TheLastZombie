@@ -4,8 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System;
+using UnityEngine.EventSystems;
+
 public class DieMenu : MonoBehaviour
 {
+    public EventSystem eventSys;
     private int score;
     private float time;
     public Button buttonRestart;
@@ -22,6 +25,7 @@ public class DieMenu : MonoBehaviour
         this.score = ScoreManager.sessionScore;
         this.time = ScoreManager.sessionTime;
         this.buttonRestart.onClick.AddListener(this.RestartGame);
+        eventSys.SetSelectedGameObject(this.buttonRestart.gameObject);
         this.mainMenu.onClick.AddListener(this.GoMainMenu);
         this.textTime.text = string.Format("You survived {0:00} secondes",  this.time);
         this.textScore.text = "You have kill "+this.score.ToString()+" humans";
@@ -34,6 +38,7 @@ public class DieMenu : MonoBehaviour
         {
             levelLoader = null;
         }
+
     }
 
     // Update is called once per frame

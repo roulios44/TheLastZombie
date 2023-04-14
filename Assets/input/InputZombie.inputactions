@@ -69,15 +69,6 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Restart",
-                    "type": "Button",
-                    "id": "7bc9c248-a84a-4771-a296-9dad565e984b",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Pause",
                     "type": "Button",
                     "id": "99d6d739-0aad-47ca-8e0a-7b0d6db59739",
@@ -277,6 +268,17 @@
                 },
                 {
                     "name": "",
+                    "id": "e3ffc79b-7a8e-4961-8d5e-d4d2378fd19b",
+                    "path": "<XInputController>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "1cc78a4d-da5c-4b87-9923-588ca5bc6b6a",
                     "path": "<Keyboard>/a",
                     "interactions": "",
@@ -304,6 +306,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Joystick",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c7de5b2c-1620-4ecc-8c08-7f331bcc739c",
+                    "path": "<XInputController>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller",
                     "action": "Left",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -343,6 +356,17 @@
                 },
                 {
                     "name": "",
+                    "id": "f931071e-3312-421d-8a9d-7ad8152bb553",
+                    "path": "<XInputController>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller",
+                    "action": "Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "664d2993-4159-4c74-ba67-9e8f3e696fa7",
                     "path": "<Keyboard>/w",
                     "interactions": "",
@@ -376,6 +400,17 @@
                 },
                 {
                     "name": "",
+                    "id": "8561c812-a5e5-474e-a10e-9ba8c6163de2",
+                    "path": "<XInputController>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "a2d8ac57-3ce7-400d-82e6-937d7cffc378",
                     "path": "<Keyboard>/space",
                     "interactions": "",
@@ -398,12 +433,12 @@
                 },
                 {
                     "name": "",
-                    "id": "cd7b064a-8ce6-49f4-a0c9-0f59afc7a2ff",
-                    "path": "<Keyboard>/r",
+                    "id": "19a77370-bee7-4f2a-a772-0b49b8f1acbc",
+                    "path": "<XInputController>/rightTrigger",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "Restart",
+                    "groups": "Xbox Controller",
+                    "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -425,6 +460,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Joystick",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2d752a9c-a4e4-4787-8d8f-1b85cc20a078",
+                    "path": "<XInputController>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller",
                     "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -1005,6 +1051,17 @@
                 {
                     "devicePath": "<XRController>",
                     "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Xbox Controller",
+            "bindingGroup": "Xbox Controller",
+            "devices": [
+                {
+                    "devicePath": "<XInputController>",
+                    "isOptional": true,
                     "isOR": false
                 }
             ]
