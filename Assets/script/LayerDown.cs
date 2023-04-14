@@ -19,17 +19,21 @@ public class LayerDown : MonoBehaviour
     {
         if(other.gameObject.tag=="Player" || other.gameObject.tag =="Enemy"){
             other.gameObject.layer = LayerMask.NameToLayer("Layer 1");
+            other.gameObject.GetComponent<SpriteRenderer>().sortingLayerName = "Layer 1";
+
         }
-        for (int i = 0; i < Floor1Border.transform.childCount; i++)
-        {
-            GameObject child = Floor1Border.transform.GetChild(i).gameObject;
-            child.SetActive(true);
-            //Do something with child
-        }
-        for (int i = 0; i < Floor2Border.transform.childCount; i++)
-        {
-            GameObject child = Floor2Border.transform.GetChild(i).gameObject;
-            child.SetActive(false);
+        if(other.gameObject.tag == "Player"){
+            for (int i = 0; i < Floor1Border.transform.childCount; i++)
+            {
+                GameObject child = Floor1Border.transform.GetChild(i).gameObject;
+                child.SetActive(true);
+                //Do something with child
+            }
+            for (int i = 0; i < Floor2Border.transform.childCount; i++)
+            {
+                GameObject child = Floor2Border.transform.GetChild(i).gameObject;
+                child.SetActive(false);
+            }
         }
     }
     // Update is called once per frame

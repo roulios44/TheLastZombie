@@ -15,18 +15,21 @@ public class LayerUp : MonoBehaviour
     {
         if(other.gameObject.tag=="Player" || other.gameObject.tag =="Enemy"){
             other.gameObject.layer = LayerMask.NameToLayer("Layer 2");
+            other.gameObject.GetComponent<SpriteRenderer>().sortingLayerName = "Layer 2";
         }
-        other.GetComponent<Renderer>().sortingLayerID = SortingLayer.NameToID("Layer 2");
-        for (int i = 0; i < Floor1Border.transform.childCount; i++)
-        {
-            GameObject child = Floor1Border.transform.GetChild(i).gameObject;
-            child.SetActive(false);
-            //Do something with child
-        }
-                for (int i = 0; i < Floor2Border.transform.childCount; i++)
-        {
-            GameObject child = Floor2Border.transform.GetChild(i).gameObject;
-            child.SetActive(true);
+        if(other.gameObject.tag=="Player"){
+            other.GetComponent<Renderer>().sortingLayerID = SortingLayer.NameToID("Layer 2");
+            for (int i = 0; i < Floor1Border.transform.childCount; i++)
+            {
+                GameObject child = Floor1Border.transform.GetChild(i).gameObject;
+                // child.SetActive(false);
+                //Do something with child
+            }
+            for (int i = 0; i < Floor2Border.transform.childCount; i++)
+            {
+                GameObject child = Floor2Border.transform.GetChild(i).gameObject;
+                child.SetActive(true);
+            }
         }
     }
 
