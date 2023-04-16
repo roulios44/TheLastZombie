@@ -11,8 +11,8 @@ public class LayerDown : MonoBehaviour
     { 
         for (int i = 0; i < Floor2Border.transform.childCount; i++)
         {
-            GameObject child = Floor2Border.transform.GetChild(i).gameObject;
-            child.SetActive(false);
+            // GameObject child = Floor2Border.transform.GetChild(i).gameObject;
+            // child.SetActive(false);
         } 
     }
     private void OnTriggerEnter2D(Collider2D other)
@@ -32,7 +32,7 @@ public class LayerDown : MonoBehaviour
             for (int i = 0; i < Floor2Border.transform.childCount; i++)
             {
                 GameObject child = Floor2Border.transform.GetChild(i).gameObject;
-                child.SetActive(false);
+                // child.SetActive(false);
             }
         }
     }

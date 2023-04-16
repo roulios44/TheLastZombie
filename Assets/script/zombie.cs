@@ -68,6 +68,7 @@ public class Zombie : MonoBehaviour
         if(this.timeElapsed>=1f){
             this.timeElapsed %= 1f;
             this.DamageZombie();
+            Debug.Log(this.enemiesOn);
         }
     }
     

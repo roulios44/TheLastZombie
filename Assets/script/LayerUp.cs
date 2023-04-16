@@ -22,7 +22,7 @@ public class LayerUp : MonoBehaviour
             for (int i = 0; i < Floor1Border.transform.childCount; i++)
             {
                 GameObject child = Floor1Border.transform.GetChild(i).gameObject;
-                child.SetActive(false);
+                // child.SetActive(false);
                 //Do something with child
             }
             for (int i = 0; i < Floor2Border.transform.childCount; i++)

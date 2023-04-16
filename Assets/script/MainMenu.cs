@@ -97,7 +97,9 @@ public class MainMenu : MonoBehaviour
     }
 
     void AppliQuit(){
+        #if !UNITY_WEBGL
         UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
+        #endif
     }
 }

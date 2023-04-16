@@ -305,7 +305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.43529412, g: 0.43529412, b: 0.43529412, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1565,7 +1565,7 @@ MonoBehaviour:
     possible...\nFortunately, a mysterious trader is here to help you, but not for
     free...\n\n\nCommands : \n\nZ or up stick-> Go Up\nS or down stick-> Go Down\nQ
     or left stick-> Go Left\nD or right sitck-> Go Right\nSpacebar or right triger
-    -> Attack\n\n"
+    -> Attack\nEchap or Start Button -> Pause menu\n\n"
 --- !u!222 &1327654575
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2135,7 +2135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.43529412, g: 0.43529412, b: 0.43529412, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
